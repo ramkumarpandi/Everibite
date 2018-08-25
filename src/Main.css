@@ -1,0 +1,20 @@
+.mainBg{
+	background:url('food.png') no-repeat center center fixed;
+	background-size:cover;
+}
+.imgPart img{
+	width:300px;
+	height:200px;
+}
+.carousel-control.left,.carousel-control.right{
+	display:none;
+}
+.item1{
+padding-top:5rem
+}
+.item2{
+	padding-top:11rem;
+}
+.item3{
+	margin-top:5rem;
+}

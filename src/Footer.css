@@ -1,0 +1,20 @@
+.footer{
+	background:gray;
+	text-align:justify;
+	font-size:1.2em;
+}
+.footerLink p a{
+color:white;
+}
+.footerLink p a:hover{
+color:white !important;
+}
+.footPlaceholder::placeholder {
+    font-size:0.5em;
+}
+.footopacity{
+	opacity:0.7;
+	font-weight:bold;
+	font-size:1.2em;
+	color:#989895;
+}
