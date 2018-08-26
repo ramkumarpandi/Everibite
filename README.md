@@ -2069,7 +2069,7 @@ Then run the `firebase init` command from your project’s root. You need to cho
     structured and when your data can be read from and written to.
 
     ? What file should be used for Database Rules? database.rules.json
-
+    ✔  Database Rules for example-app-fd690 have been downloaded to database.rules.json.
     Future modifications to database.rules.json will update Database Rules when you run
     firebase deploy.
 
@@ -2083,16 +2083,16 @@ Then run the `firebase init` command from your project’s root. You need to cho
     ? Configure as a single-page app (rewrite all urls to /index.html)? Yes
 
     ✔  Wrote build/index.html
->>>>>>> Rajalakshmi
+
+
 
     i  Writing configuration info to firebase.json...
     i  Writing project information to .firebaserc...
 
 
-=======
     ✔  Firebase initialization complete!
 
-```
+
 
 IMPORTANT: you need to set proper HTTP caching headers for `service-worker.js` file in `firebase.json` file or you will not be able to see changes after first deployment ([issue #2440](https://github.com/facebookincubator/create-react-app/issues/2440)). It should be added inside `"hosting"` key like next:
 
@@ -2113,7 +2113,6 @@ Now, after you create a production build with `npm run build`, you can deploy it
 
     i  deploying database, hosting
 
-=======
     ✔  database: rules ready to deploy.
     i  hosting: preparing build directory for upload...
     Uploading: [==============================          ] 75%✔  hosting: build folder uploaded successfully
@@ -2121,7 +2120,8 @@ Now, after you create a production build with `npm run build`, you can deploy it
     i  starting release process (may take several minutes)...
 
     ✔  Deploy complete!
->>>>>>> Rajalakshmi
+
+
 
     Project Console: https://console.firebase.google.com/project/example-app-fd690/overview
     Hosting URL: https://example-app-fd690.firebaseapp.com
