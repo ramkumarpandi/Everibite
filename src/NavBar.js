@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './NavBar.css';
 import logo from './everibiteLogo.png';
+import fb from './fbIcon.png';
+import google from './googleIcon.png';
+import login from './login.png';
 import { Button, FormGroup, FormControl, ControlLabel, Modal} from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import "./LoginForm.css";
@@ -55,6 +58,7 @@ return(
 	<Link to="/RegistrationProcess" className="everibite-bar-item everibite-button">RegistrationProcess</Link>
 <Link to="/OrdersCopy" className="everibite-bar-item everibite-button">OrdersCopy</Link>
 <Link to="/UserFeedback" className="everibite-bar-item everibite-button">UserFeedback</Link>
+<Link to="/OrderCopy" className="everibite-bar-item everibite-button">OrderCopy</Link>
             <Button className="everibite-bar-item everibite-button "  onClick={this.handleShow}>
                   LOGIN
             </Button>
@@ -65,7 +69,8 @@ return(
             <Modal.Body>
             <div className="everibite-top">
             <form onSubmit={this.handleSubmit}>
-            <Modal.Title className="mb-5">
+<img src={login} alt="fbIcon" className="float-left mr-4"/>
+            <Modal.Title className="d-inline-block mt-3 mb-5">
             <h2 className="text-success">Login</h2>
             <h4>Existing User Login With Your Account</h4>
             </Modal.Title>
@@ -101,11 +106,11 @@ return(
             </Button>
             <Button
             block   bsSize="large"
-            bsStyle="primary" className="my-3">
+            bsStyle="primary" className="my-3"><img src={fb} alt="fbIcon" className="bg-white pr-1 mr-3"/>
             SIGNIN WITH FACEBOOK</Button>
             <Button
             block   bsSize="large"
-            bsStyle="default">
+            bsStyle="default"><img src={google} alt="googleIcon" className="mr-3 bg-white"/>
             SIGNIN WITH GOOGLE</Button>
             </form>
             </div>

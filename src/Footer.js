@@ -3,6 +3,7 @@ import './Footer.css';
 import { SocialIcon } from 'react-social-icons';
 import { Button, FormGroup, FormControl } from "react-bootstrap";
 import footerLogo from './footerLogo.png';
+import FontAwesome from 'react-fontawesome';
 export default class Footer extends Component{
 render(){
 return(
@@ -51,6 +52,9 @@ return(
           SEND ME TREATS !
           </Button>
         </form>
+<div>
+ 
+</div>
       </div>
     </div>
     <div className="row">

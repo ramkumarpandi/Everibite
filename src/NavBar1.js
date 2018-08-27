@@ -30,6 +30,9 @@ return(
 <NavItem eventKey={4}><Link to="/UserFeedback">
         UserFeedback</Link>
       </NavItem>
+<NavItem eventKey={5}><Link to="/OrderCopy">
+       OrderCopy</Link>
+     </NavItem>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
