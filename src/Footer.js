@@ -4,6 +4,10 @@ import { SocialIcon } from 'react-social-icons';
 import { Button, FormGroup, FormControl } from "react-bootstrap";
 import footerLogo from './footerLogo.png';
 import FontAwesome from 'react-fontawesome';
+
+import Icon from 'react-icons-kit';
+import {twitter, facebook, instagram, pinterest} from 'react-icons-kit/fa/';
+
 export default class Footer extends Component{
 render(){
 return(
@@ -38,7 +42,6 @@ return(
         <h5>Signup for special offers & coupons</h5>
         <form className="form-inline">
           <FormControl
-            autoFocus
             type="email"
             placeholder="Enter Your Email Address"
             className="w-75 py-4 my-3 footPlaceholder"
@@ -52,8 +55,12 @@ return(
           SEND ME TREATS !
           </Button>
         </form>
-<div>
- 
+
+ <div className="text-center w-75 mt-3">
+<Icon icon={facebook} className="mr-3 text-white" size={23}/>
+<Icon icon={pinterest} className="mr-3 text-white" size={23}/>
+<Icon icon={instagram} className="mr-3 text-white" size={23}/>
+<Icon icon={twitter} className="mr-3 text-white" size={23}/>
 </div>
       </div>
     </div>

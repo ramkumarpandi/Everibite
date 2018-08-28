@@ -59,6 +59,9 @@ return(
 <Link to="/OrdersCopy" className="everibite-bar-item everibite-button">OrdersCopy</Link>
 <Link to="/UserFeedback" className="everibite-bar-item everibite-button">UserFeedback</Link>
 <Link to="/OrderCopy" className="everibite-bar-item everibite-button">OrderCopy</Link>
+
+<Link to="/ProfilePopup" className="everibite-bar-item everibite-button">ProfilePopup</Link>
+
             <Button className="everibite-bar-item everibite-button "  onClick={this.handleShow}>
                   LOGIN
             </Button>
