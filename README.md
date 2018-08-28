@@ -2081,6 +2081,7 @@ Then run the `firebase init` command from your project’s root. You need to cho
 
     ? What do you want to use as your public directory? build
     ? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+<<<<<<< HEAD
 
     ✔  Wrote build/index.html
 
@@ -2093,6 +2094,15 @@ Then run the `firebase init` command from your project’s root. You need to cho
     ✔  Firebase initialization complete!
 
 
+=======
+    ✔  Wrote build/index.html
+
+    i  Writing configuration info to firebase.json...
+    i  Writing project information to .firebaserc...
+
+    ✔  Firebase initialization complete!
+```
+>>>>>>> master
 
 IMPORTANT: you need to set proper HTTP caching headers for `service-worker.js` file in `firebase.json` file or you will not be able to see changes after first deployment ([issue #2440](https://github.com/facebookincubator/create-react-app/issues/2440)). It should be added inside `"hosting"` key like next:
 
@@ -2112,7 +2122,10 @@ Now, after you create a production build with `npm run build`, you can deploy it
     === Deploying to 'example-app-fd690'...
 
     i  deploying database, hosting
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
     ✔  database: rules ready to deploy.
     i  hosting: preparing build directory for upload...
     Uploading: [==============================          ] 75%✔  hosting: build folder uploaded successfully
@@ -2121,8 +2134,11 @@ Now, after you create a production build with `npm run build`, you can deploy it
 
     ✔  Deploy complete!
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> master
     Project Console: https://console.firebase.google.com/project/example-app-fd690/overview
     Hosting URL: https://example-app-fd690.firebaseapp.com
 ```

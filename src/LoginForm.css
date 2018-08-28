@@ -9,7 +9,7 @@
   }
 }
 .fade:not(.show) {
-    opacity: 0.9 !important;
+    opacity: 1 !important;
 }
 .modal-content {
 	margin-top:20rem;
