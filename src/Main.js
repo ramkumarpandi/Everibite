@@ -8,7 +8,7 @@ import './Footer.css';
 import './NavBar.css';
 import NavBar from './NavBar';
 import Footer from './Footer';
-import { Carousel,Media } from 'react-bootstrap';
+import { Carousel,Media,Button } from 'react-bootstrap';
 export default class Main extends Component{
 render(){
 return(
@@ -20,7 +20,7 @@ return(
         <h1>A Better Way To Get Your Food</h1>
         <h3>Order Your Favourite Food From Restaurants Near You</h3>
         <form className="form-inline">
-          <input type="search" className="form-control form-control-lg p-4 text-success w-75 my-3" id="search" placeholder="Enter Your Location"/>
+          <span className="glyphicon glyphicon-map-marker"></span><input type="search" className="form-control form-control-lg p-4 text-success w-75 my-3" id="search" placeholder="Enter Your Location"/>
           <button type="submit" className="btn btn-success btn-lg ml-3">Find Your Bite</button>
           <h4><a href="#" className="text-success">Locate Me</a></h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -135,7 +135,8 @@ return(
       </div>
     </div>
     <h1 className="text-center text-success mt-5 pt-5">Register Your Restaurant With Us</h1>
-    <h2 className="text-center mt-3">The better way to find the customer who loves your food and taste to increase regular customers.</h2>
+    <h2 className="text-center mt-3"><p>The better way to find the customer who loves your food</p><p>and taste to increase regular customers.</p></h2>
+<center><Button className="text-success everibite-btn-style font-weight-bold mb-4">Get In Touch With Us Now</Button></center>
   </div>
   <Footer/>
 </div>

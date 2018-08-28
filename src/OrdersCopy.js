@@ -46,7 +46,7 @@ return(
 <div className="media">
             <img className="mr-3 rounded-circle accountLogo" src={avatarMale} alt="Generic placeholder image"/>
             <div className="media-body">
-              <h4 className="mt-3">Ram Kumar</h4>
+              <h4 className="mt-3">Ilanchezhiyan</h4>
               <h4>+91-923456780</h4>
             </div>
 <button className="float-right btn btn-outline-success">Contact Support</button>
