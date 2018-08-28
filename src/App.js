@@ -12,7 +12,9 @@ import RegistrationProcess from './RegistrationProcess';
 import OrdersCopy from './OrdersCopy';
 import UserFeedback from './UserFeedback';
 import OrderCopy from './OrderCopy';
+
 import ProfilePopup from './ProfilePopup';
+
 library.add(faShoppingBag);
 class App extends Component {
   render() {
@@ -25,7 +27,9 @@ class App extends Component {
 	<Route path="/OrdersCopy" component={OrdersCopy}/>
 	<Route path="/UserFeedback" component={UserFeedback}/>
 	<Route path="/OrderCopy" component={OrderCopy}/>
+
 	<Route path="/ProfilePopup" component={ProfilePopup}/>
+
       </div>
 </Router>
     );

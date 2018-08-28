@@ -2082,6 +2082,7 @@ Then run the `firebase init` command from your project’s root. You need to cho
     ? What do you want to use as your public directory? build
     ? Configure as a single-page app (rewrite all urls to /index.html)? Yes
 
+
     ✔  Wrote build/index.html
 
 
@@ -2120,8 +2121,6 @@ Now, after you create a production build with `npm run build`, you can deploy it
     i  starting release process (may take several minutes)...
 
     ✔  Deploy complete!
-
-
 
     Project Console: https://console.firebase.google.com/project/example-app-fd690/overview
     Hosting URL: https://example-app-fd690.firebaseapp.com

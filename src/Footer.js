@@ -4,6 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 import { Button, FormGroup, FormControl } from "react-bootstrap";
 import footerLogo from './footerLogo.png';
 import FontAwesome from 'react-fontawesome';
+
 import Icon from 'react-icons-kit';
 import {twitter, facebook, instagram, pinterest} from 'react-icons-kit/fa/';
 
@@ -54,6 +55,7 @@ return(
           SEND ME TREATS !
           </Button>
         </form>
+
  <div className="text-center w-75 mt-3">
 <Icon icon={facebook} className="mr-3 text-white" size={23}/>
 <Icon icon={pinterest} className="mr-3 text-white" size={23}/>
