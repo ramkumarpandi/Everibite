@@ -18,15 +18,26 @@ return(
   </Navbar.Header>
   <Navbar.Collapse>
     <Nav pullRight>
-      <NavItem eventKey={1} componentClass={Link} href="/" to="/">
-        HomePage
+      <NavItem eventKey={1}><Link to="/">
+        HomePage</Link>
       </NavItem>
-      <NavItem eventKey={2} componentClass={Link} href="/MyAccount" to="/MyAccount">
-        MyAccountPage
+      <NavItem eventKey={2}><Link to="/MyAccount">
+        MyAccountPage</Link>
       </NavItem>
-	<NavItem eventKey={3} componentClass={Link} href="/OrdersCopy" to="/OrdersCopy">
-        OrdersCopy
+	<NavItem eventKey={3}><Link to="/OrdersCopy">
+        OrdersCopy</Link>
       </NavItem>
+<NavItem eventKey={4}><Link to="/UserFeedback">
+        UserFeedback</Link>
+      </NavItem>
+<NavItem eventKey={5}><Link to="/OrderCopy">
+       OrderCopy</Link>
+     </NavItem>
+
+<NavItem eventKey={6}><Link to="/ProfilePopup">
+       ProfilePopup</Link>
+     </NavItem>
+
     </Nav>
   </Navbar.Collapse>
 </Navbar>

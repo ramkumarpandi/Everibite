@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './NavBar.css';
 import logo from './everibiteLogo.png';
+import fb from './fbIcon.png';
+import google from './googleIcon.png';
+import login from './login.png';
 import { Button, FormGroup, FormControl, ControlLabel, Modal} from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import "./LoginForm.css";
@@ -15,12 +18,16 @@ this.handleShow1 = this.handleShow1.bind(this);
 this.state = {
 show: false,
 show1:false,
+show2:false,
 email: "",
 password: ""
 };
 }
 handleClose() {
 this.setState({ show: false , show1: false});
+}
+handleClose1() {
+this.setState({ show2: false });
 }
 handleShow() {
 this.setState({ show: true });
@@ -42,13 +49,19 @@ event.preventDefault();
 render(){
 return(
 
-<div  >
+<div>
   <div>
     <div className="everibite-bar everibite-white everibite-card" id="myNavbar">
-    <a href="#home"><span><img src={logo} className="" alt="logo" /></span></a>
+    <Link to="/"><span><img src={logo} className="" alt="logo" /></span></Link>
     <div className="everibite-right everibite-hide-small">
-            <a href="/MyAccount" className="everibite-bar-item everibite-button">MyAccount</a>
-	<a href="/RegistrationProcess" className="everibite-bar-item everibite-button">RegistrationProcess</a>
+            <Link to="/MyAccount" className="everibite-bar-item everibite-button">MyAccountPage</Link>
+	<Link to="/RegistrationProcess" className="everibite-bar-item everibite-button">RegistrationProcess</Link>
+<Link to="/OrdersCopy" className="everibite-bar-item everibite-button">OrdersCopy</Link>
+<Link to="/UserFeedback" className="everibite-bar-item everibite-button">UserFeedback</Link>
+<Link to="/OrderCopy" className="everibite-bar-item everibite-button">OrderCopy</Link>
+
+<Link to="/ProfilePopup" className="everibite-bar-item everibite-button">ProfilePopup</Link>
+
             <Button className="everibite-bar-item everibite-button "  onClick={this.handleShow}>
                   LOGIN
             </Button>
@@ -59,7 +72,8 @@ return(
             <Modal.Body>
             <div className="everibite-top">
             <form onSubmit={this.handleSubmit}>
-            <Modal.Title className="mb-5">
+<img src={login} alt="fbIcon" className="float-left mr-4"/>
+            <Modal.Title className="d-inline-block mt-3 mb-5">
             <h2 className="text-success">Login</h2>
             <h4>Existing User Login With Your Account</h4>
             </Modal.Title>
@@ -81,7 +95,9 @@ return(
             placeholder="Password"
             />
             </FormGroup>
-            <a href="#" className="float-right mb-4 text-success">Forgot Password ?</a>
+<a href="#" className="float-right mb-4 text-success" onClick={this.handleShow1}>New User? ClickHere</a>
+            <a href="#" className="float-right mb-4 text-success mr-5">Forgot Password ?</a>
+		
             <Button
             bsSize="large"
             bsStyle="success"
@@ -93,11 +109,11 @@ return(
             </Button>
             <Button
             block   bsSize="large"
-            bsStyle="primary" className="my-3">
+            bsStyle="primary" className="my-3"><img src={fb} alt="fbIcon" className="bg-white pr-1 mr-3"/>
             SIGNIN WITH FACEBOOK</Button>
             <Button
             block   bsSize="large"
-            bsStyle="default">
+            bsStyle="default"><img src={google} alt="googleIcon" className="mr-3 bg-white"/>
             SIGNIN WITH GOOGLE</Button>
             </form>
             </div>
@@ -158,6 +174,13 @@ return(
             onChange={this.handleChange}
             type="password"
             placeholder="Password"
+            />
+
+		 <FormControl
+            value={this.state.confirmpassword}
+            onChange={this.confirmhandleChange}
+            type="password"
+            placeholder="ConfirmPassword"
             />
             </FormGroup>
 
