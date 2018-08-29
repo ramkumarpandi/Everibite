@@ -7,8 +7,7 @@ import login from './login.png';
 import { Button, FormGroup, FormControl, ControlLabel, Modal} from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import "./LoginForm.css";
-import Icon from 'react-icons-kit';
-import {shoppingBag} from 'react-icons-kit/fa/';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default class NavBar extends Component{
 constructor(props, context) {
@@ -55,15 +54,13 @@ return(
     <div className="everibite-bar everibite-white everibite-card" id="myNavbar">
     <Link to="/"><span><img src={logo} className="" alt="logo" /></span></Link>
     <div className="everibite-right everibite-hide-small">
-            <Link to="/MyAccount" className="everibite-bar-item everibite-button">MyAccount</Link>
+            <Link to="/MyAccount" className="everibite-bar-item everibite-button">MyAccountPage</Link>
 	<Link to="/RegistrationProcess" className="everibite-bar-item everibite-button">RegistrationProcess</Link>
 <Link to="/OrdersCopy" className="everibite-bar-item everibite-button">OrdersCopy</Link>
 <Link to="/UserFeedback" className="everibite-bar-item everibite-button">UserFeedback</Link>
 <Link to="/OrderCopy" className="everibite-bar-item everibite-button">OrderCopy</Link>
-<Link to="/ProfilePopup" className="everibite-bar-item everibite-button">ProfilePopup</Link>
-<Link to="/Checkout" className="everibite-bar-item everibite-button">Checkout</Link>
-<Link to="/Vieworder" className="everibite-bar-item everibite-button">Vieworder</Link>
 
+<Link to="/ProfilePopup" className="everibite-bar-item everibite-button">ProfilePopup</Link>
 
             <Button className="everibite-bar-item everibite-button "  onClick={this.handleShow}>
                   LOGIN
@@ -125,10 +122,6 @@ return(
             <Button onClick={this.handleClose} >Close</Button>
             </Modal.Footer>
             </Modal>
-
-
-
-
             <Button className="everibite-bar-item everibite-button" onClick={this.handleShow1}>
             REGISTER
             </Button>
@@ -208,11 +201,13 @@ return(
             <Button onClick={this.handleClose}>Close</Button>
             </Modal.Footer>
             </Modal>
-           
-<Icon icon={shoppingBag} className="text-success mt-4 mr-3" size={18}/>      
+            <div className="everibite-bar-item everibite-button">
+            <FontAwesomeIcon icon="shopping-bag" size="large" color="green"/>    
+            </div>
       </div>
-      </div>
+          
 
+      </div>
     </div>
    </div> 
 
