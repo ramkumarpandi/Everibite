@@ -19,10 +19,10 @@ return(
   <Navbar.Collapse>
     <Nav pullRight>
       <NavItem eventKey={1}><Link to="/">
-        Home</Link>
+        HomePage</Link>
       </NavItem>
       <NavItem eventKey={2}><Link to="/MyAccount">
-        MyAccount</Link>
+        MyAccountPage</Link>
       </NavItem>
 	<NavItem eventKey={3}><Link to="/OrdersCopy">
         OrdersCopy</Link>
@@ -33,15 +33,11 @@ return(
 <NavItem eventKey={5}><Link to="/OrderCopy">
        OrderCopy</Link>
      </NavItem>
+
 <NavItem eventKey={6}><Link to="/ProfilePopup">
        ProfilePopup</Link>
      </NavItem>
-<NavItem eventKey={7}><Link to="/Checkout">
-       Checkout</Link>
-     </NavItem>
-<NavItem eventKey={8}><Link to="/Vieworder">
-       Vieworder</Link>
-     </NavItem>
+
     </Nav>
   </Navbar.Collapse>
 </Navbar>
