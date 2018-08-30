@@ -12,6 +12,7 @@ import OrderCopy from './OrderCopy';
 import ProfilePopup from './ProfilePopup';
 import Checkout from './Checkout';
 import Vieworder from './Vieworder';
+import LandingPage from './LandingPage';
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
 	<Route path="/ProfilePopup" component={ProfilePopup}/>
 	<Route path="/Checkout" component={Checkout}/>
 	<Route path="/Vieworder" component={Vieworder}/>
+	<Route path="/LandingPage" component={LandingPage}/>
       </div>
 </Router>
     );

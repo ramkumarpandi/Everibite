@@ -42,6 +42,9 @@ return(
 <NavItem eventKey={8}><Link to="/Vieworder">
        Vieworder</Link>
      </NavItem>
+<NavItem eventKey={9}><Link to="/LandingPage">
+       LandingPage</Link>
+     </NavItem>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
