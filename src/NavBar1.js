@@ -45,6 +45,9 @@ return(
 <NavItem eventKey={9}><Link to="/LandingPage">
        LandingPage</Link>
      </NavItem>
+<NavItem eventKey={10}><Link to="/RestaurantPage">
+       RestaurantPage</Link>
+     </NavItem>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

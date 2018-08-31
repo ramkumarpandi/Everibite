@@ -64,6 +64,7 @@ return(
 <Link to="/Checkout" className="everibite-bar-item everibite-button">Checkout</Link>
 <Link to="/Vieworder" className="everibite-bar-item everibite-button">Vieworder</Link>
 <Link to="/LandingPage" className="everibite-bar-item everibite-button">LandingPage</Link>
+<Link to="/RestaurantPage" className="everibite-bar-item everibite-button">RestaurantPage</Link>
 
 
             <Button className="everibite-bar-item everibite-button "  onClick={this.handleShow}>
