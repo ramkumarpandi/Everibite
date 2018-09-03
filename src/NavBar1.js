@@ -24,28 +24,31 @@ return(
       <NavItem eventKey={2}><Link to="/MyAccount">
         MyAccount</Link>
       </NavItem>
-	<NavItem eventKey={3}><Link to="/OrdersCopy">
+<NavItem eventKey={3}><Link to="/RegistrationProcess">
+        Registration</Link>
+      </NavItem>
+	<NavItem eventKey={4}><Link to="/OrdersCopy">
         OrdersCopy</Link>
       </NavItem>
-<NavItem eventKey={4}><Link to="/UserFeedback">
+<NavItem eventKey={5}><Link to="/UserFeedback">
         UserFeedback</Link>
       </NavItem>
-<NavItem eventKey={5}><Link to="/OrderCopy">
+<NavItem eventKey={6}><Link to="/OrderCopy">
        OrderCopy</Link>
      </NavItem>
-<NavItem eventKey={6}><Link to="/ProfilePopup">
+<NavItem eventKey={7}><Link to="/ProfilePopup">
        ProfilePopup</Link>
      </NavItem>
-<NavItem eventKey={7}><Link to="/Checkout">
+<NavItem eventKey={8}><Link to="/Checkout">
        Checkout</Link>
      </NavItem>
-<NavItem eventKey={8}><Link to="/Vieworder">
+<NavItem eventKey={9}><Link to="/Vieworder">
        Vieworder</Link>
      </NavItem>
-<NavItem eventKey={9}><Link to="/LandingPage">
+<NavItem eventKey={10}><Link to="/LandingPage">
        LandingPage</Link>
      </NavItem>
-<NavItem eventKey={10}><Link to="/RestaurantPage">
+<NavItem eventKey={11}><Link to="/RestaurantPage">
        RestaurantPage</Link>
      </NavItem>
     </Nav>

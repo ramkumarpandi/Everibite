@@ -64,7 +64,7 @@ return(
 
         </div>
 <hr className="shadow bg-white mt-5"/>
-
+<h4>Payment Options</h4>
 <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
   <Tab eventKey={1} title="Debit & Credit Cards">
     Tab 1 content

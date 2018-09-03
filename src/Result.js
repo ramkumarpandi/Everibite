@@ -13,7 +13,7 @@ imgs:[
 {id:6,title:"food", desc:"biriyani", src1:"https://6d1bdf0e0edb084eae10-5bfabe5484726969ac662c6d377e2f3c.ssl.cf2.rackcdn.com/themes/img/southindian-recipe3.jpg"},
 {id:7,title:"food", desc:"biriyani", src1:"http://www.gourmetstravelguide.com/wp-content/uploads/2016/03/004-3-800x548.jpg"},
 {id:8,title:"food", desc:"biriyani", src1:"https://i.ytimg.com/vi/we9eJkd7pao/maxresdefault.jpg"},
-{id:9,title:"food", desc:"biriyani", src1:"http://img.tasteofcity.com/tasteimages/201605/image_original/A165B3AD9494B6A3_Vada-pav-2.jpg"},
+{id:9,title:"food", desc:"biriyani", src1:"https://www.dfordelhi.in/wp-content/uploads/2016/05/vada-pav-5.jpg"},
 ]};
 
 	render(){

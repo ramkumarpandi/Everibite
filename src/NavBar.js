@@ -4,7 +4,7 @@ import logo from './everibiteLogo.png';
 import fb from './fbIcon.png';
 import google from './googleIcon.png';
 import login from './login.png';
-import { Button, FormGroup, FormControl, ControlLabel, Modal} from "react-bootstrap";
+import { Button, FormGroup, FormControl, Modal} from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import "./LoginForm.css";
 import Icon from 'react-icons-kit';

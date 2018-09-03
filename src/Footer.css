@@ -4,10 +4,10 @@
 	font-size:1.2em;
 }
 .footerLink p a{
-color:white;
+	color:white;
 }
 .footerLink p a:hover{
-color:white !important;
+	color:white !important;
 }
 .footPlaceholder::placeholder {
     font-size:0.5em;
@@ -16,5 +16,5 @@ color:white !important;
 	opacity:0.7;
 	font-weight:bold;
 	font-size:1.2em;
-	color:#989895;
+	color:#999999;
 }

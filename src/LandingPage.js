@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Grid,Row,Col} from 'react-bootstrap';
 import NavBar1 from './NavBar1';
 import OffersDeals from './Offers&Deals';
-import SideNavbar from './SideNavbar';
+import SideNavLanding from './SideNavLanding';
 import Result from './Result';
 import Search from './Search';
 import CommonFooter from './CommonFooter';
@@ -19,12 +19,10 @@ return(
 <Grid className="container">
 
 <Row className="show-grid">
-   <Col  md={2}>
-	<SideNavbar/>    
+   <Col  md={12}>
+	<SideNavLanding/>    
    </Col>
-	<Col md={10}>
-    		<Result/>
-   	</Col>
+	
    </Row>
 
 </Grid>

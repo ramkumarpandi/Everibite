@@ -1,0 +1,24 @@
+.tab-content > .active {
+
+    display: block;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+    border-bottom: 1px solid green;
+
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+
+    color: green;
+	font-weight:bold;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid green;
+        border-bottom-color: green;
+    border-bottom-color: transparent;
+
+}
+.nav-tabs {
+
+    border-bottom: 1px solid green !important;
+
+}
