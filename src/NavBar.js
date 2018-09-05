@@ -4,10 +4,11 @@ import logo from './everibiteLogo.png';
 import fb from './fbIcon.png';
 import google from './googleIcon.png';
 import login from './login.png';
-import { Button, FormGroup, FormControl, ControlLabel, Modal} from "react-bootstrap";
+import { Button, FormGroup, FormControl, Modal} from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import "./LoginForm.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Icon from 'react-icons-kit';
+import {shoppingBag} from 'react-icons-kit/fa/';
 
 export default class NavBar extends Component{
 constructor(props, context) {
@@ -54,11 +55,20 @@ return(
     <div className="everibite-bar everibite-white everibite-card" id="myNavbar">
     <Link to="/"><span><img src={logo} className="" alt="logo" /></span></Link>
     <div className="everibite-right everibite-hide-small">
-            <Link to="/MyAccount" className="everibite-bar-item everibite-button">MyAccountPage</Link>
+            <Link to="/MyAccount" className="everibite-bar-item everibite-button">MyAccount</Link>
 	<Link to="/RegistrationProcess" className="everibite-bar-item everibite-button">RegistrationProcess</Link>
 <Link to="/OrdersCopy" className="everibite-bar-item everibite-button">OrdersCopy</Link>
 <Link to="/UserFeedback" className="everibite-bar-item everibite-button">UserFeedback</Link>
 <Link to="/OrderCopy" className="everibite-bar-item everibite-button">OrderCopy</Link>
+<Link to="/ProfilePopup" className="everibite-bar-item everibite-button">ProfilePopup</Link>
+<Link to="/Checkout" className="everibite-bar-item everibite-button">Checkout</Link>
+<Link to="/Vieworder" className="everibite-bar-item everibite-button">Vieworder</Link>
+<Link to="/LandingPage" className="everibite-bar-item everibite-button">LandingPage</Link>
+<Link to="/RestaurantPage" className="everibite-bar-item everibite-button">RestaurantPage</Link>
+<Link to="/Review" className="everibite-bar-item everibite-button">Review</Link>
+<Link to="/HotelCart" className="everibite-bar-item everibite-button">HotelCart</Link>
+
+
             <Button className="everibite-bar-item everibite-button "  onClick={this.handleShow}>
                   LOGIN
             </Button>
@@ -119,6 +129,10 @@ return(
             <Button onClick={this.handleClose} >Close</Button>
             </Modal.Footer>
             </Modal>
+
+
+
+
             <Button className="everibite-bar-item everibite-button" onClick={this.handleShow1}>
             REGISTER
             </Button>
@@ -198,13 +212,11 @@ return(
             <Button onClick={this.handleClose}>Close</Button>
             </Modal.Footer>
             </Modal>
-            <div className="everibite-bar-item everibite-button">
-            <FontAwesomeIcon icon="shopping-bag" size="large" color="green"/>    
-            </div>
+           
+<Icon icon={shoppingBag} className="text-success mt-4 mr-3" size={18}/>      
       </div>
-          
+      </div>
 
-      </div>
     </div>
    </div> 
 

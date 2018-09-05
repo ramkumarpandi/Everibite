@@ -3,16 +3,20 @@ import React, { Component } from 'react';
 import './App.css';
 import logo from './everibiteLogo.png';
 import { BrowserRouter as Router,Route }from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core'; 
-import { faShoppingBag } from '@fortawesome/free-solid-svg-icons'; 
 import Main from './Main';
 import MyAccount from './MyAccount';
 import RegistrationProcess from './RegistrationProcess';
 import OrdersCopy from './OrdersCopy';
 import UserFeedback from './UserFeedback';
 import OrderCopy from './OrderCopy';
-library.add(faShoppingBag);
+import ProfilePopup from './ProfilePopup';
+import Checkout from './Checkout';
+import Vieworder from './Vieworder';
+import LandingPage from './LandingPage';
+import RestaurantPage from './RestaurantPage';
+import Review from './Review';
+import HotelCart from './HotelCart';
+
 class App extends Component {
   render() {
     return (
@@ -24,6 +28,13 @@ class App extends Component {
 	<Route path="/OrdersCopy" component={OrdersCopy}/>
 	<Route path="/UserFeedback" component={UserFeedback}/>
 	<Route path="/OrderCopy" component={OrderCopy}/>
+	<Route path="/ProfilePopup" component={ProfilePopup}/>
+	<Route path="/Checkout" component={Checkout}/>
+	<Route path="/Vieworder" component={Vieworder}/>
+	<Route path="/LandingPage" component={LandingPage}/>
+	<Route path="/RestaurantPage" component={RestaurantPage}/>
+	<Route path="/Review" component={Review}/>
+	<Route path="/HotelCart" component={HotelCart}/>
       </div>
 </Router>
     );

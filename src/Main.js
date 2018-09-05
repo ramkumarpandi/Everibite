@@ -19,20 +19,18 @@ return(
       <div className="bg-white text-left col-md-6 p-5 shadow p-3 mb-5 bg-white rounded mt-4 ml-5">
         <h1>A Better Way To Get Your Food</h1>
         <h3>Order Your Favourite Food From Restaurants Near You</h3>
-        <form className="form-inline">
-          <span className="glyphicon glyphicon-map-marker"></span><input type="search" className="form-control form-control-lg p-4 text-success w-75 my-3" id="search" placeholder="Enter Your Location"/>
-          <button type="submit" className="btn btn-success btn-lg ml-3">Find Your Bite</button>
-          <h4><a href="#" className="text-success">Locate Me</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<div className="formBorder my-2">        
+<form className="form-inline border border-success rounded p-1">
+	<span className="glyphicon glyphicon-map-marker mr-2" style={{fontSize:'1.5em'}}></span>
+	<input type="search" className="form-control form-control-lg p-2 text-success w-75 my-1 border-0" id="search" placeholder="Enter Your Location" style={{backgroundColor:'transparent'}}/>
+	<button type="submit" className="btn btn-success btn-lg ml-3">Find Your Bite</button>	         
         </form>
+</div>
+<h4><a href="#" className="text-success">Locate Me</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
     </div>
   </div>
-  {/*
-  <h1 className="text-center text-white display-4">Todays offers & deals</h1>
-  <div className="imgPart mt-5 row">
-  </div>
-  */}
   <div className="bg-white">
     <Carousel>
       <Carousel.Item>

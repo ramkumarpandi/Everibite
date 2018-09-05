@@ -45,13 +45,13 @@ header,
 }
 
 .everibite-bar-item {
-  padding: 8px 16px;
+  padding: 8px;
   float: left;
   width: auto;
   border: none;
   display: block;
   outline: 0;
-  margin-right: 10px;
+  margin-right: 2px;
   margin-top: 10px
 }
 
@@ -78,7 +78,7 @@ header,
 .everibite-button {
   border: none;
   display: inline-block;
-  padding: 8px 16px;
+  padding: 8px;
   vertical-align: middle;
   overflow: hidden;
   text-decoration: none;
