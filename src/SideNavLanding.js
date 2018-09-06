@@ -12,7 +12,7 @@ return(
       <Nav bsStyle="pills" stacked style={{fontSize:'1.6em'}}>
         <NavItem eventKey="topdish">Top Dishes</NavItem>
         <NavItem eventKey="topbf">Top Breakfast
-		<p style={{fontSize:'0.8em'}}>Mostly ordered and healthy breakfast recommended for you !!..</p>
+		<p style={{fontSize:'0.7em'}}>Mostly ordered and healthy breakfast recommended for you !!</p>
 	</NavItem>
         <NavItem eventKey="recommended">Recommended For You</NavItem>
         <NavItem eventKey="recentorder">Recent Orders</NavItem>

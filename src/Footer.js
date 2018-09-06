@@ -9,18 +9,18 @@ import {twitter, facebook, instagram, pinterest} from 'react-icons-kit/fa/';
 export default class Footer extends Component{
 render(){
 return(
-<div className="footer py-5 px-5">
+<div className="footer py-5 px-5" style={{fontFamily:"'Roboto', sans-serif",fontWeight:'500'}}>
   <footer className="container-fluid">
     <div className="row">
       <div className="col-md-3 footerLink">
-        <h5>Company</h5>
+        <h5 style={{color:'rgba(255, 255, 255, 0.50)'}}>Company</h5>
         <p><a href="#">About us</a></p>
         <p><a href="#">Team</a></p>
         <p><a href="#">Careers</a></p>
         <p><a href="#">Swiggy Blog</a></p>
       </div>
       <div className="col-md-3 footerLink">
-        <h5>Contact</h5>
+        <h5 style={{color:'rgba(255, 255, 255, 0.50)'}}>Contact</h5>
         <p><a href="#">Help & Support</a></p>
         <p><a href="#">Partner with us</a></p>
         {/*
@@ -30,14 +30,14 @@ return(
         */}
       </div>
       <div className="col-md-3 footerLink">
-        <h5>Legal</h5>
+        <h5 style={{color:'rgba(255, 255, 255, 0.50)'}}>Legal</h5>
         <p><a href="#">Terms & conditions</a></p>
         <p><a href="#">Refund & Cancellation</a></p>
         <p><a href="#">Privacy Policy</a></p>
         <p><a href="#">Offer Terms</a></p>
       </div>
       <div className="col-md-3 footerLink">
-        <h5>Signup for special offers & coupons</h5>
+        <h5 style={{color:'rgba(255, 255, 255, 0.50)'}}>Signup for special offers & coupons</h5>
         <form className="form-inline">
           <FormControl
             type="email"
@@ -46,10 +46,9 @@ return(
             />
           <Button
             bsSize="large"
-            bsStyle="success"
             type="submit"
-            className="px-5 mb-4 w-75"
-            >
+            className="px-5 mb-4 w-75 text-white"
+            style={{background:'#6cc018'}}>
           SEND ME TREATS !
           </Button>
         </form>

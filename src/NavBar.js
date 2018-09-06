@@ -50,7 +50,7 @@ event.preventDefault();
 render(){
 return(
 
-<div>
+<div style={{fontFamily:"'Roboto', sans-serif",fontWeight:'700'}}>
   <div>
     <div className="everibite-bar everibite-white everibite-card" id="myNavbar">
     <Link to="/"><span><img src={logo} className="" alt="logo" /></span></Link>
@@ -65,22 +65,24 @@ return(
 <Link to="/Vieworder" className="everibite-bar-item everibite-button">Vieworder</Link>
 <Link to="/LandingPage" className="everibite-bar-item everibite-button">LandingPage</Link>
 <Link to="/RestaurantPage" className="everibite-bar-item everibite-button">RestaurantPage</Link>
+<Link to="/Review" className="everibite-bar-item everibite-button">Review</Link>
+<Link to="/HotelCart" className="everibite-bar-item everibite-button">HotelCart</Link>
 
 
-            <Button className="everibite-bar-item everibite-button "  onClick={this.handleShow}>
+            <Button className="everibite-bar-item everibite-button "  onClick={this.handleShow} style={{background:'#6cc018',color:'#fff'}}>
                   LOGIN
             </Button>
             <div className="everibite-right everibite-hide-small">
             <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>            
             </Modal.Header>
-            <Modal.Body>
+            <Modal.Body className="p-5">
             <div className="everibite-top">
             <form onSubmit={this.handleSubmit}>
 <img src={login} alt="fbIcon" className="float-left mr-4"/>
             <Modal.Title className="d-inline-block mt-3 mb-5">
-            <h2 className="text-success">Login</h2>
-            <h4>Existing User Login With Your Account</h4>
+            <h2 className="" style={{color:'#2a830c',fontFamily:"'Viga',sans-serif"}}>Login</h2>
+            <h4 style={{color:'#666',fontFamily:"'Roboto',sans-serif",fontWeight:'400'}}>Existing User Login With Your Account</h4>
             </Modal.Title>
             <FormGroup controlId="email" bsSize="large">
             <FormControl
@@ -101,24 +103,23 @@ return(
             />
             </FormGroup>
 <a href="#" className="float-right mb-4 text-success" onClick={this.handleShow1}>New User? ClickHere</a>
-            <a href="#" className="float-right mb-4 text-success mr-5">Forgot Password ?</a>
+            <a href="#" className="float-right mb-4 text-success mr-5" style={{fontFamily:"'Roboto',sans-serif",fontWeight:'400'}}>Forgot Password ?</a>
 		
             <Button
             bsSize="large"
-            bsStyle="success"
             disabled={!this.validateForm()}
             type="submit"
-            className="px-5 mb-4"
+            className="px-5 mb-4 text-white" style={{fontFamily:"'Viga',sans-serif",background:'#2a830c'}}
             >
             Login
             </Button>
             <Button
             block   bsSize="large"
-            bsStyle="primary" className="my-3"><img src={fb} alt="fbIcon" className="bg-white pr-1 mr-3"/>
+            className="my-3 text-white" style={{background:'#3a559f'}}><img src={fb} alt="fbIcon" className="bg-white pr-1 mr-3" />
             SIGNIN WITH FACEBOOK</Button>
             <Button
-            block   bsSize="large"
-            bsStyle="default"><img src={google} alt="googleIcon" className="mr-3 bg-white"/>
+            block   bsSize="large" bsStyle="default"
+            style={{color:'#6a6969'}}><img src={google} alt="googleIcon" className="mr-3 bg-white"/>
             SIGNIN WITH GOOGLE</Button>
             </form>
             </div>
@@ -131,7 +132,7 @@ return(
 
 
 
-            <Button className="everibite-bar-item everibite-button" onClick={this.handleShow1}>
+            <Button className="everibite-bar-item everibite-button" onClick={this.handleShow1} style={{background:'#6cc018',color:'#fff'}}>
             REGISTER
             </Button>
             <Modal show={this.state.show1} onHide={this.handleClose}>
@@ -143,8 +144,8 @@ return(
             <div className="Login">
             <form onSubmit={this.handleSubmit}>
             <Modal.Title className="mb-5">
-            <h2 className="text-success">New User</h2>
-            <h4>Register Now ! and Create an Account</h4>
+            <h2 className="text-success" style={{fontFamily:"'viga',sans-serif",color:'#2a830c'}}>New User</h2>
+            <h4 style={{fontFamily:"'Roboto',sans-serif",fontWeight:'400',color:'#666'}}>Register Now ! and Create an Account</h4>
             </Modal.Title>
             <FormGroup controlId="usename" bsSize="large">
 
@@ -194,12 +195,11 @@ return(
             </FormGroup>
 
             <Button
-            bsStyle="success"
             bsSize="large"
             disabled={!this.validateForm()}
             type="submit"
-            className="px-5 mb-4"
-            >
+            className="px-5 mb-4 text-white"
+            style={{background:'#6cc018',fontFamily:"'viga',sans-serif"}}>
             Register
             </Button>
             </form>

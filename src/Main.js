@@ -3,6 +3,7 @@ import pic1 from './findfood.png';
 import pic2 from './diamond.png';
 import pic3 from './better.png';
 import pic4 from './offers.png';
+import locateme from './locateme.png';
 import './Main.css';
 import './Footer.css';
 import './NavBar.css';
@@ -14,25 +15,24 @@ render(){
 return(
 <div>
   <NavBar/>
+<div style={{fontFamily:"'Viga',sans-serif"}}>
   <div className="mainBg p-5">
     <div className="row">
-      <div className="bg-white text-left col-md-6 p-5 shadow p-3 mb-5 bg-white rounded mt-4 ml-5">
-        <h1>A Better Way To Get Your Food</h1>
-        <h3>Order Your Favourite Food From Restaurants Near You</h3>
-        <form className="form-inline">
-          <span className="glyphicon glyphicon-map-marker"></span><input type="search" className="form-control form-control-lg p-4 text-success w-75 my-3" id="search" placeholder="Enter Your Location"/>
-          <button type="submit" className="btn btn-success btn-lg ml-3">Find Your Bite</button>
-          <h4><a href="#" className="text-success">Locate Me</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div className="bg-white text-left col-md-6 shadow mb-5 bg-white rounded mt-4 ml-5" style={{padding:'4rem'}}>
+        <h1 style={{color:'#333'}}>A Better Way To Get Your Food</h1>
+        <h3 style={{fontFamily:"'Roboto',sans-serif",color:'#666666',fontWeight:'300'}}>Order Your Favourite Food From Restaurants Near You</h3>
+<div className="formBorder my-2">        
+<form className="form-inline border border-success rounded p-1">
+	<span className="glyphicon glyphicon-map-marker mr-2" style={{fontSize:'1.5em'}}></span>
+	<input type="search" className="form-control form-control-lg p-2 text-success w-75 my-1 border-0" id="search" placeholder="Enter Your Location" style={{backgroundColor:'transparent'}}/>
+	<button type="submit" className="btn btn-lg ml-3 text-white" style={{background:'#2a830c'}}>Find Your Bite</button>	         
         </form>
+</div>
+<h4><img src={locateme} alt="locateMe"/><a href="#" className="ml-1" style={{color:'#333'}}>Locate Me</a></h4>
+          <p style={{fontFamily:"'Roboto',sans-serif",fontWeight:'400',color:'#666666'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
     </div>
   </div>
-  {/*
-  <h1 className="text-center text-white display-4">Todays offers & deals</h1>
-  <div className="imgPart mt-5 row">
-  </div>
-  */}
   <div className="bg-white">
     <Carousel>
       <Carousel.Item>
@@ -86,7 +86,7 @@ return(
     </Carousel>
   </div>
   <div className="container mt-5">
-    <h1 className="text-success">Why Oreder With Everibite?</h1>
+    <h1 className="text-success">Why Order With Everibite?</h1>
     <div className="row">
       <div className="col-md-4">
         <Media>
@@ -136,8 +136,9 @@ return(
     </div>
     <h1 className="text-center text-success mt-5 pt-5">Register Your Restaurant With Us</h1>
     <h2 className="text-center mt-3"><p>The better way to find the customer who loves your food</p><p>and taste to increase regular customers.</p></h2>
-<center><Button className="text-success everibite-btn-style font-weight-bold mb-4">Get In Touch With Us Now</Button></center>
+<center><Button className="everibite-btn-style font-weight-bold mb-4" style={{color:'#3a8d1e'}}>Get In Touch With Us Now</Button></center>
   </div>
+</div>
   <Footer/>
 </div>
 );

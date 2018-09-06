@@ -22,3 +22,8 @@ padding-top:5rem
 	background:#fff !important;
 	border:1px solid #28a745 !important; 
 }
+.formBorder .form-control{
+	box-shadow:none !important; 
+	box-sizing:none !important;
+}
+
