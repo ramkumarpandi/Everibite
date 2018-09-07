@@ -12,8 +12,9 @@ const Search = () =>
 	<form className="px-5 m-5 row">
 	<FormGroup controlId="formControlsSelect" bsSize="large" className="col-md-4 mb-0">     
       <FormControl componentClass="select" placeholder="select" className="border-0 h-100">
-        <option value="select">select</option>
-        <option value="other">...</option>
+        <option value="select">--select Area--</option>
+        <option value="other">Area1</option>
+	<option value="other">Area2</option>
       </FormControl>
     </FormGroup>
 

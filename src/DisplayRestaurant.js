@@ -20,7 +20,7 @@ return(
 	<div className="item shadow bg-white p-3 mb-3 rounded">
 		<Media>
     <Media.Left>
-      <img width={250} height={200} src={biriyani} alt="thumbnail" />
+      <img width={250} height={200} src="https://i.ytimg.com/vi/DK2Io4iTuMQ/maxresdefault.jpg" alt="thumbnail" />
     </Media.Left>
     <Media.Body>
       <Media.Heading>

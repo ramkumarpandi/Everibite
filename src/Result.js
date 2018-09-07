@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import "./LandingPage.css";
+import biryani from './biriyani.png';
 import {Link} from 'react-router-dom';
 
 export default class Result extends Component{
 
 state={
 imgs:[
-{id:1,title:"food", desc:"biriyani", src1:"https://lonelyplanetimages.imgix.net/copilot/images/interest/food-and-drink.jpg?auto=compress&h=800"},
+{id:1,title:"food", desc:"biriyani", src1:"https://i.ytimg.com/vi/DK2Io4iTuMQ/maxresdefault.jpg"},
 {id:2,title:"food", desc:"biriyani", src1:"https://networkposting.com/wp-content/uploads/2018/02/maxresdefault-137.jpg"},
 {id:3,title:"food", desc:"biriyani", src1:"http://energy106.ca/wp-content/uploads/2017/11/Junk-Food.jpg"},
 {id:4,title:"food", desc:"biriyani", src1:"https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2018/03/08174730/Swiggy.jpg"},
