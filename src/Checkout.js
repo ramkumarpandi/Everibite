@@ -7,8 +7,10 @@ import './Footer.css';
 import './NavBar.css';
 import './Checkout.css';
 import avatar from './avatar.jpeg';
+import visa from './visa.png';
 import CommonFooter from './CommonFooter';
 import cards from './visa.png';
+import secure from './secure.png';
 
 export default class Checkout extends Component
 {
@@ -64,10 +66,38 @@ return(
 
         </div>
 <hr className="shadow bg-white mt-5"/>
+<div className="clearfix"><img src={secure} alt="secureImg" className="float-right"/></div>
 <h4>Payment Options</h4>
 <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
   <Tab eventKey={1} title="Debit & Credit Cards">
-    Tab 1 content
+    <div className="clearfix">
+	<img src={visa} alt="cardsImg" className="float-right"/>
+    </div>
+<form className="container">
+    <div className="form-row">
+<div className="form-group col-md-5">
+      <label htmlFor="company">Card Number</label>
+      <input type="text" className="form-control" id="cardnum"/>
+    </div>
+</div>
+<div className="form-row">
+      <div className="form-group col-md-2 pr-0">
+        <label htmlFor="name" className="d-block">Valid thru</label>
+        <input type="text" className="form-control d-inline-block" id="name" placeholder="MM" style={{width:'42px'}}/>
+<input type="text" className="form-control d-inline-block" id="profession" placeholder="YY" style={{width:'42px'}}/>
+      </div>
+	 <div className="form-group col-md-2">
+        <label htmlFor="profession">CVV</label>
+        <input type="text" className="form-control" id="profession" style={{width:'50px'}}/>
+      </div>
+      </div>
+    <div className="form-row">
+      <div className="form-group col-md-5">
+      <label htmlFor="company">Name on the card</label>
+      <input type="text" className="form-control" id="company"/>
+    </div>
+    </div>
+  </form>
   </Tab>
   <Tab eventKey={2} title="Net Banking">
     Tab 2 content
@@ -85,7 +115,7 @@ return(
     Tab 6 content
   </Tab>
 </Tabs>
-<Button className=" btn btn-success px-4 py-2 mr-3 text-white float-right">
+<Button className=" btn btn-success px-4 py-2 mr-3 text-white float-right mt-3">
          PROCEED TO PAY
           </Button>
 

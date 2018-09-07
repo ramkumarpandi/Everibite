@@ -1,4 +1,4 @@
-.tab-content > .active {
+.checkout .tab-content > .active {
 
     display: block;
     border-left: 1px solid green;
@@ -6,7 +6,7 @@
     border-bottom: 1px solid green;
 
 }
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+.checkout .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
 
     color: green;
 	font-weight:bold;
@@ -17,8 +17,11 @@
     border-bottom-color: transparent;
 
 }
-.nav-tabs {
+.checkout .nav-tabs {
 
     border-bottom: 1px solid green !important;
 
+}
+.checkout ::placeholder{
+	font-size:0.65em;
 }

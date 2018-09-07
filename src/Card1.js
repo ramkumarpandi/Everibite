@@ -7,6 +7,7 @@ import { ic_grade } from "react-icons-kit/md/ic_grade";
 import avatar from './avatar-male.png';
 import paradise from './paradise.png';
 import dateFormat from 'dateformat';
+import { Link } from 'react-router-dom';
 
 export default class Card1 extends Component {
   render() {
@@ -110,9 +111,9 @@ export default class Card1 extends Component {
     </div>
     </div>
 		<div className="col-md-4">
-<Button bsSize="large" bsStyle="success" className="px-5 py-3 mt-4">
+<Link to="/Checkout"><Button bsSize="large" bsStyle="success" className="px-5 py-3 mt-4">
                   ADD TO CART
-                </Button>
+                </Button></Link>
 </div>
 	
   </div>

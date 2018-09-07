@@ -40,13 +40,7 @@ render()
             <Icon icon={iosLocationOutline}/>
             12/3 Krishna Enclave,Gopalapuram,#rd Street,
          </p>
-         <div className="progressBarModal">
-            <div className="progress">
-               <div className="progress-bar-success progress-bar-striped active massive-font" role="progressbar" aria-valuenow="10" aria-valuemin="20" aria-valuemax="100" style={{width:'20%'}}>
-               </div>
-            </div>
-         </div>
-         <h6 className="text-success font-weight-bold">Restaurant is preparing your food</h6>
+
       </div>
       </Col>
       <Col  md={4} className="p-3" >
@@ -54,12 +48,6 @@ render()
          <p>{dateFormat(now)}</p>
          <h5 className="text-success font-weight-bold">Price: &#8377;509</h5>
          <h6>Payment Bank Card-Sucessful</h6>
-         <p className="text-success font-weight-bold" style={{fontSize:'1.5em'}}>
-            <span className="icon text-success">
-               <Icon icon={iosStopwatch} size={25}/>
-            </span>
-            51 mins <Button bsStyle="success">TRACK ORDER</Button>
-         </p>
       </div>
       </Col>
    </Row>
@@ -77,26 +65,14 @@ render()
             <Icon icon={iosLocationOutline}/>
             12/3 Krishna Enclave,Gopalapuram,#rd Street,
          </p>
-         <div className="progressBarModal">
-            <div className="progress">
-               <div className="progress-bar-success progress-bar-striped active massive-font" role="progressbar" aria-valuenow="10" aria-valuemin="20" aria-valuemax="100" style={{width:'20%'}}>
-               </div>
-            </div>
-         </div>
-         <h6 className="text-success font-weight-bold">Restaurant is preparing your food</h6>
       </div>
       </Col>
-      <Col  md={4} className="p-3" >
+      
+	<Col  md={4} className="p-3" >
       <div className="float-right text-right p-3">
          <p>{dateFormat(now)}</p>
          <h5 className="text-success font-weight-bold">Price: &#8377;509</h5>
          <h6>Payment Bank Card-Sucessful</h6>
-         <p className="text-success font-weight-bold" style={{fontSize:'1.5em'}}>
-            <span className="icon text-success">
-               <Icon icon={iosStopwatch} size={25}/>
-            </span>
-            51 mins <Button bsStyle="success">TRACK ORDER</Button>
-         </p>
       </div>
       </Col>
    </Row>

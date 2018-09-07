@@ -16,7 +16,7 @@ return(
     </Navbar.Brand>
     <Navbar.Toggle />
   </Navbar.Header>
-  <Navbar.Collapse>
+  {/*<Navbar.Collapse>
     <Nav pullRight>
       <NavItem eventKey={1}><Link to="/">
         Home</Link>
@@ -58,7 +58,7 @@ return(
        HotelCart</Link>
      </NavItem>
     </Nav>
-  </Navbar.Collapse>
+  </Navbar.Collapse>*/}
 </Navbar>
 );
 }

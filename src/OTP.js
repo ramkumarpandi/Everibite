@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import img2 from './registration.png';
+import { Link } from 'react-router-dom';
 
 const OTP = () => (
 <div>
@@ -10,7 +11,7 @@ const OTP = () => (
 		<h1>Hi Username, your verification is</h1>
 		<h1 className="text-success">Successful</h1>
 		<h4>Login and start ordering your favourite food and Enjoy your food abd provide yoyr valuable feedback to better to know your taste!...</h4>
-		<button className="text-white btn btn-success">LOGIN NOW</button>
+		<Link to=""><button className="text-white btn btn-success">LOGIN NOW</button></Link>
 	</div>
 </div>
 </div>

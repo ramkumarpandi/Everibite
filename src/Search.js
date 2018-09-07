@@ -10,12 +10,12 @@ const Search = () =>
 
 	<section className="container formBorder">
 	<form className="px-5 m-5 row">
-	{/*<FormGroup controlId="formControlsSelect" bsSize="large" className="col-md-4 mb-0">     
+	<FormGroup controlId="formControlsSelect" bsSize="large" className="col-md-4 mb-0">     
       <FormControl componentClass="select" placeholder="select" className="border-0 h-100">
         <option value="select">select</option>
         <option value="other">...</option>
       </FormControl>
-    </FormGroup>*/}
+    </FormGroup>
 
         <div className="bg-white rounded col-md-8"><FormGroup controlId="formBasicText" bsSize="large" className="w-75 d-inline-block mb-0 mt-2 pt-1">          
           <FormControl

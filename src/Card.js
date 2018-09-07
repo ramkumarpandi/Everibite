@@ -6,6 +6,7 @@ import { outlined } from "react-icons-kit/entypo/outlined";
 import { ic_grade } from "react-icons-kit/md/ic_grade";
 import avatar from './avatar-male.png';
 import dateFormat from 'dateformat';
+import { Link } from 'react-router-dom';
 
 export default class Card extends Component {
   render() {
@@ -51,9 +52,9 @@ export default class Card extends Component {
                 </h5>
               </div>
               <div className="float-right">
-                <Button bsSize="large" bsStyle="success" className="px-5 py-3">
+                <Link to="/Checkout"><Button bsSize="large" bsStyle="success" className="px-5 py-3">
                   ADD TO CART
-                </Button>
+                </Button></Link>
               </div>
             </div>
           </div>

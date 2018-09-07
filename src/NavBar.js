@@ -55,7 +55,7 @@ return(
     <div className="everibite-bar everibite-white everibite-card" id="myNavbar">
     <Link to="/"><span><img src={logo} className="" alt="logo" /></span></Link>
     <div className="everibite-right everibite-hide-small">
-            <Link to="/MyAccount" className="everibite-bar-item everibite-button">MyAccount</Link>
+            {/*<Link to="/MyAccount" className="everibite-bar-item everibite-button">MyAccount</Link>
 	<Link to="/RegistrationProcess" className="everibite-bar-item everibite-button">RegistrationProcess</Link>
 <Link to="/OrdersCopy" className="everibite-bar-item everibite-button">OrdersCopy</Link>
 <Link to="/UserFeedback" className="everibite-bar-item everibite-button">UserFeedback</Link>
@@ -66,7 +66,7 @@ return(
 <Link to="/LandingPage" className="everibite-bar-item everibite-button">LandingPage</Link>
 <Link to="/RestaurantPage" className="everibite-bar-item everibite-button">RestaurantPage</Link>
 <Link to="/Review" className="everibite-bar-item everibite-button">Review</Link>
-<Link to="/HotelCart" className="everibite-bar-item everibite-button">HotelCart</Link>
+<Link to="/HotelCart" className="everibite-bar-item everibite-button">HotelCart</Link>*/}
 
 
             <Button className="everibite-bar-item everibite-button "  onClick={this.handleShow} style={{background:'#6cc018',color:'#fff'}}>
@@ -105,14 +105,14 @@ return(
 <a href="#" className="float-right mb-4 text-success" onClick={this.handleShow1}>New User? ClickHere</a>
             <a href="#" className="float-right mb-4 text-success mr-5" style={{fontFamily:"'Roboto',sans-serif",fontWeight:'400'}}>Forgot Password ?</a>
 		
-            <Button
+            <Link to="/LandingPage"><Button
             bsSize="large"
             disabled={!this.validateForm()}
             type="submit"
             className="px-5 mb-4 text-white" style={{fontFamily:"'Viga',sans-serif",background:'#2a830c'}}
             >
             Login
-            </Button>
+            </Button></Link>
             <Button
             block   bsSize="large"
             className="my-3 text-white" style={{background:'#3a559f'}}><img src={fb} alt="fbIcon" className="bg-white pr-1 mr-3" />
@@ -194,14 +194,14 @@ return(
             />
             </FormGroup>
 
-            <Button
+            <Link to="/RegistrationProcess"><Button
             bsSize="large"
             disabled={!this.validateForm()}
             type="submit"
             className="px-5 mb-4 text-white"
             style={{background:'#6cc018',fontFamily:"'viga',sans-serif"}}>
             Register
-            </Button>
+            </Button></Link>
             </form>
             <h5 className="text-center mt-3">By Creating an account, <a href="#" className="text-success">I accept the Terms & Conditions</a></h5>
             </div>

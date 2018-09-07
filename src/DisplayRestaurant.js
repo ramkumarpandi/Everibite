@@ -10,6 +10,7 @@ import paradise from './paradise.png';
 import para from './para.png';
 import biriyani from './biriyani.png';
 import discount from './discount.png';
+import { Link } from 'react-router-dom';
 
 export default class DisplayRestaurant extends Component{
 
@@ -38,7 +39,7 @@ return(
       <p className="float-left"><h5>Price</h5><h5 className="text-success font-weight-bold" style={{fontSize:'1.8em'}}>&#8377;220</h5></p>
       <p className="float-right">
         <span className="float-left mt-3 mr-4"><Icon icon={ic_chat_bubble} className="text-success float-left mr-1" size={27}/><Icon icon={ic_sentiment_satisfied} className="text-white" style={{marginLeft:'-24px',marginTop:'3px'}}/> 13 Customer Reviews</span>
-        <Button className="p-3 btn-success float-right mt-1">ADD TO CART</Button>
+        <Link to="/Checkout"><Button className="p-3 btn-success float-right mt-1">ADD TO CART</Button></Link>
       </p>
     </div>
     </Media.Body>
