@@ -1,6 +1,7 @@
 import React,{ Component } from 'react';
 import {Media,Button} from 'react-bootstrap';
 import Dollar from'./imagel.png';
+import {Link} from 'react-router-dom';
 export default class OrderHeader extends Component
 {
 
@@ -17,7 +18,7 @@ export default class OrderHeader extends Component
 						<h5>Your Order number #</h5>
 						<h3>408973455</h3>
 						<h5>{Date()}</h5>
-						<Button bsStyle="success">TRACK ORDER</Button>
+						<Link to="/OrdersCopy"><Button bsStyle="success">TRACK ORDER</Button></Link>
 
 					</div>
 					<div>

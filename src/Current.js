@@ -1,5 +1,5 @@
 import React,{ Component } from 'react';
-import {Grid,Row,Col} from 'react-bootstrap';
+import {Grid,Row,Col,Button} from 'react-bootstrap';
 //import './Current.css';
 import Icon from 'react-icons-kit';
 import {longLeft} from 'react-icons-kit/entypo/longLeft';
@@ -13,7 +13,7 @@ import {iosStopwatchOutline} from 'react-icons-kit/ionicons/iosStopwatchOutline'
 import {iosHomeOutline} from 'react-icons-kit/ionicons/iosHomeOutline';
 import {iosStopwatch} from 'react-icons-kit/ionicons/iosStopwatch';
 import dateFormat from 'dateformat';
-import {Button} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 export default class Current extends Component
 {
 
@@ -59,7 +59,7 @@ render()
             <span className="icon text-success">
                <Icon icon={iosStopwatch} size={25}/>
             </span>
-            51 mins <Button bsStyle="success">TRACK ORDER</Button>
+            51 mins <Link to="/OrdersCopy"><Button bsStyle="success">TRACK ORDER</Button></Link>
          </p>
       </div>
       </Col>
@@ -96,7 +96,7 @@ render()
             <span className="icon text-success">
                <Icon icon={iosStopwatch} size={25}/>
             </span>
-            51 mins <Button bsStyle="success">TRACK ORDER</Button>
+            51 mins <Link to="/OrdersCopy"><Button bsStyle="success">TRACK ORDER</Button></Link>
          </p>
       </div>
       </Col>

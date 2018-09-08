@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 import {Tab,Row,Col,Nav,NavItem} from 'react-bootstrap';
 import Result from './Result';
+import './sideBar.css';
 
 export default class SideNavLanding extends Component{
 render(){
 return(
-<Tab.Container id="left-tabs-example" defaultActiveKey="topdish">
+<Tab.Container id="left-tabs-example" defaultActiveKey="topdish" className="sideBar">
   <Row className="clearfix">
-    <Col sm={2}>
+    <Col sm={2} className="px-2">
       <Nav bsStyle="pills" stacked style={{fontSize:'1.6em'}}>
         <NavItem eventKey="topdish">Top Dishes</NavItem>
         <NavItem eventKey="topbf">Top Breakfast

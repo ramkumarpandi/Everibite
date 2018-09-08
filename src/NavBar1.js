@@ -8,7 +8,7 @@ export default class NavBar1 extends Component
 render()
 {
 return(
-<Navbar default collapseOnSelect>
+<Navbar default collapseOnSelect style={{fontFamily:"'Roboto', sans-serif",fontWeight:'700'}}>
   <Navbar.Header>
     <Navbar.Brand>
       <Link to={"/"}>
@@ -16,7 +16,7 @@ return(
     </Navbar.Brand>
     <Navbar.Toggle />
   </Navbar.Header>
-  <Navbar.Collapse>
+  {/*<Navbar.Collapse>
     <Nav pullRight>
       <NavItem eventKey={1}><Link to="/">
         Home</Link>
@@ -58,7 +58,7 @@ return(
        HotelCart</Link>
      </NavItem>
     </Nav>
-  </Navbar.Collapse>
+  </Navbar.Collapse>*/}
 </Navbar>
 );
 }
