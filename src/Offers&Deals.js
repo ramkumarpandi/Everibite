@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import biriyani from './biriyani.png';
+import biryani from './biriyani.png';
 
 export default class OffersDeals extends Component{
 
@@ -24,22 +24,22 @@ var settings = {
 <div className="col-md-11">
 	<Slider {...settings} className="mb-3">
         <div className="thumbnail w-100 h-50">
-          <img src={biriyani} alt="carousel"/>
+          <img src={biryani} alt="carousel"/>
         </div>
         <div className="thumbnail w-100 h-50">
-          <img src={biriyani} alt="carousel"/>
+          <img src={biryani} alt="carousel"/>
         </div>
         <div className="thumbnail w-100 h-50">
-          <img src={biriyani} alt="carousel"/>
+          <img src={biryani} alt="carousel"/>
         </div>
         <div className="thumbnail w-100 h-50">
-          <img src={biriyani} alt="carousel"/>
+          <img src={biryani} alt="carousel"/>
         </div>
         <div className="thumbnail w-100 h-50">
-          <img src={biriyani} alt="carousel"/>
+          <img src={biryani} alt="carousel"/>
         </div>
         <div className="thumbnail w-100 h-50">
-         <img src={biriyani} alt="carousel"/>
+         <img src={biryani} alt="carousel"/>
         </div>
       </Slider>
 </div>

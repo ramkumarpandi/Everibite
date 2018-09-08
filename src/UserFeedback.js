@@ -6,7 +6,7 @@ import CommonFooter from './CommonFooter';
 import NavBar1 from './NavBar1';
 import './NavBar.css';
 import './Footer.css';
-import biriyani from './biriyani.png';
+import biryani from './biriyani.png';
 import warranty from './warranty.png';
 export default class UserFeedback extends Component{
 constructor(props, context) {
@@ -38,13 +38,13 @@ return(
       <Modal.Body>
         <Media>
           <Media.Left>
-            <img width={100} height={100} src={biriyani} alt="thumbnail" />
+            <img width={100} height={100} src={biryani} alt="thumbnail" />
           </Media.Left>
           <Media.Body>
             <Media.Heading>
               <span className="float-right everibite-vegIcon text-danger">&#8865;</span>
-              <h4>Hyderabad Chiken Biriyani With Raita</h4>
-              <h5>South Indian Biriyani</h5>
+              <h4>Hyderabad Chiken Biryani With Raita</h4>
+              <h5>South Indian Biryani</h5>
             </Media.Heading>
             <div className="float-right"><span className="glyphicon glyphicon-heart-empty mr-4"></span><span className="bg-success text-white glyphicon glyphicon-star-empty p-2 font-weight-bold"><span className="ml-3">4.0</span></span></div>
           </Media.Body>

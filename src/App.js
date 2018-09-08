@@ -14,6 +14,8 @@ import Checkout from './Checkout';
 import Vieworder from './Vieworder';
 import LandingPage from './LandingPage';
 import RestaurantPage from './RestaurantPage';
+import RestaurantPage1 from './RestaurantPage1';
+import RestaurantPage2 from './RestaurantPage2';
 import Review from './Review';
 import HotelCart from './HotelCart';
 
@@ -33,6 +35,8 @@ class App extends Component {
 	<Route path="/Vieworder" component={Vieworder}/>
 	<Route path="/LandingPage" component={LandingPage}/>
 	<Route path="/RestaurantPage" component={RestaurantPage}/>
+	<Route path="/RestaurantPage1" component={RestaurantPage1}/>
+	<Route path="/RestaurantPage2" component={RestaurantPage2}/>
 	<Route path="/Review" component={Review}/>
 	<Route path="/HotelCart" component={HotelCart}/>
       </div>

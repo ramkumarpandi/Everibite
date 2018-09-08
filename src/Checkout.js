@@ -2,6 +2,7 @@ import React,{ Component } from 'react';
 import NavBar1 from './NavBar1';
 import MyAccount from './MyAccount';
 import { Button,Tab,Tabs } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import './MyAccount.css';
 import './Footer.css';
 import './NavBar.css';
@@ -115,9 +116,9 @@ return(
     Tab 6 content
   </Tab>
 </Tabs>
-<Button className=" btn btn-success px-4 py-2 mr-3 text-white float-right mt-3">
+<Link to="/OrderCopy"><Button className=" btn btn-success px-4 py-2 mr-3 text-white float-right mt-3">
          PROCEED TO PAY
-          </Button>
+          </Button></Link>
 
       </div>
  <div className="col-md-4">
@@ -126,9 +127,9 @@ return(
             <h3 className="text-white ml-2">Order Information</h3>
           </div>
           <div className="mt-4 d-inline-block ml-3">
-            <h4>Hyderabadi Chicken Biriyani With Raita</h4>
-            <h5>South Indian, Biriyani</h5>
-            <h6>Biriyani Paradise, Wilson Garden</h6>
+            <h4>Hyderabadi Chicken Biryani With Raita</h4>
+            <h5>South Indian, Biryani</h5>
+            <h6>Biryani Paradise, Wilson Garden</h6>
 
           </div>
           <div className="float-right mt-4">
@@ -138,9 +139,9 @@ return(
 <div className="px-3"><input type="text" className="form-control mb-0" placeholder="Any special instructions? write us here to know"/></div>
           <hr className="shadow bg-white mx-3"/>
 	 <div className="mt-4 d-inline-block ml-3">
-            <h4>Hyderabadi Chicken Biriyani With Raita</h4>
-            <h5>South Indian, Biriyani</h5>
-            <h6>Biriyani Paradise, Wilson Garden</h6>
+            <h4>Hyderabadi Chicken Biryani With Raita</h4>
+            <h5>South Indian, Biryani</h5>
+            <h6>Biryani Paradise, Wilson Garden</h6>
           </div>
           <div className="float-right mt-4">
             <p className="everibite-price-font text-success mb-0 mr-3">&#x20B9; 220</p>

@@ -34,7 +34,7 @@ return(
         </Media>
 
 <img src={location} alt="LocationMap" className="w-100"/>
-<p><span className="glyphicon glyphicon-home text-success px-2 ml-2"></span><span>Biriyani Paradise, Willson Garden</span><span className="glyphicon glyphicon-arrow-right text-success"></span><span className="glyphicon glyphicon-map-marker px-2"></span><span>35A, West Street, Ramanathapuram, Coimbatore.</span></p>
+<p><span className="glyphicon glyphicon-home text-success px-2 ml-2"></span><span>Biryani Paradise, Willson Garden</span><span className="glyphicon glyphicon-arrow-right text-success"></span><span className="glyphicon glyphicon-map-marker px-2"></span><span>35A, West Street, Ramanathapuram, Coimbatore.</span></p>
 <div>
 	<span className="glyphicon glyphicon-time text-success float-right d-block font-weight-bold pb-4 everibite-time-font-size">40mins</span>
 	<div className="progress w-100">
@@ -60,9 +60,9 @@ return(
             <h3 className="text-white ml-2">Order Information</h3>
           </div>
           <div className="mt-4 d-inline-block ml-3">
-            <h4>Hyderabadi Chicken Biriyani With Raita</h4>
-            <h5>South Indian, Biriyani</h5>
-            <h6>Biriyani Paradise, Wilson Garden</h6>
+            <h4>Hyderabadi Chicken Biryani With Raita</h4>
+            <h5>South Indian, Biryani</h5>
+            <h6>Biryani Paradise, Wilson Garden</h6>
           </div>
           <div className="float-right mt-4">
             <p className="everibite-price-font text-success mb-0 mr-3">&#x20B9; 220</p>
@@ -70,9 +70,9 @@ return(
           </div>
           <hr className="shadow bg-white mx-3"/>
 	 <div className="mt-4 d-inline-block ml-3">
-            <h4>Hyderabadi Chicken Biriyani With Raita</h4>
-            <h5>South Indian, Biriyani</h5>
-            <h6>Biriyani Paradise, Wilson Garden</h6>
+            <h4>Hyderabadi Chicken Biryani With Raita</h4>
+            <h5>South Indian, Biryani</h5>
+            <h6>Biryani Paradise, Wilson Garden</h6>
           </div>
           <div className="float-right mt-4">
             <p className="everibite-price-font text-success mb-0 mr-3">&#x20B9; 220</p>

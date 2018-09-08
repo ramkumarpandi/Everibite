@@ -14,17 +14,17 @@ export default class OrderInfo extends Component
 			<h3 className="text-success font-weight-bold">Order Information</h3>
 			<div>
 					
-			<h4>Hydrebadi Chicken Briyani With Raita <span className="float-right text-success">&#8377;200</span></h4>
-			<h5>South Indian,Briyani<span className="float-right text-danger font-weight-bold">&#8865;</span></h5>
-			<h6>Briyani Paradise,Wilson Garden</h6>
+			<h4>Hydrebadi Chicken Biryani With Raita <span className="float-right text-success">&#8377;200</span></h4>
+			<h5>South Indian,Biryani<span className="float-right text-danger font-weight-bold">&#8865;</span></h5>
+			<h6>Biryani Paradise,Wilson Garden</h6>
 
 			<hr/>
 			</div>
 
 			<div>
-			<h4>Hydrebadi Chicken Briyani With Raita <span className="float-right text-success">&#8377;200</span></h4>
-			<h5>South Indian,Briyani<span className="float-right text-danger font-weight-bold">&#8865;</span></h5>
-			<h6>Briyani Paradise,Wilson Garden</h6>
+			<h4>Hydrebadi Chicken Biryani With Raita <span className="float-right text-success">&#8377;200</span></h4>
+			<h5>South Indian,Biryani<span className="float-right text-danger font-weight-bold">&#8865;</span></h5>
+			<h6>Biryani Paradise,Wilson Garden</h6>
 
 			<hr/></div>
 			<div>
