@@ -2,23 +2,27 @@ import React, { Component } from 'react';
 import {Form, FormGroup,FormControl,Button,ButtonToolbar,DropdownButton,MenuItem} from 'react-bootstrap';
 import Icon from 'react-icons-kit';
 import {iosLocationOutline} from 'react-icons-kit/ionicons/iosLocationOutline';
+import loc from './loc.png';
+import './Search.css';
 
 const Search = () => 
 (
 
-<div>
+<div className="searchBox">
 
 	<section className="container formBorder">
 	<form className="px-5 m-5 row">
-	<FormGroup controlId="formControlsSelect" bsSize="large" className="col-md-4 mb-0">     
-      <FormControl componentClass="select" placeholder="select" className="border-0 h-100">
-        <option value="select">--select Area--</option>
-        <option value="other">Area1</option>
-	<option value="other">Area2</option>
-      </FormControl>
-    </FormGroup>
+	<div className="form-group-lg col-md-3 mr-5 pr-0 bg-white border border-success" style={{borderRadius:'3px'}}>
+      <img src={loc} alt="locIcon"/>
+  <select className="form-control border-0 d-inline-block" id="sel1" style={{width:'90%'}}>
+    <option>--Select Area--</option>
+    <option>Area1</option>
+    <option>Area2</option>
+    <option>Area3</option>
+  </select>
+</div>
 
-        <div className="bg-white rounded col-md-8"><FormGroup controlId="formBasicText" bsSize="large" className="w-75 d-inline-block mb-0 mt-2 pt-1">          
+        <div className="bg-white rounded col-md-8 border border-success"><FormGroup controlId="formBasicText" bsSize="large" className="w-75 d-inline-block mb-0 mt-2 pt-1">          
           <FormControl
             type="search"
             value=""

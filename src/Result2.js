@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./LandingPage.css";
-import biryani from './biriyani.png';
+import rice from './rice.jpg';
 import {Link} from 'react-router-dom';
 import Icon from 'react-icons-kit';
 import {ic_grade} from 'react-icons-kit/md/ic_grade';
@@ -8,19 +8,19 @@ import {ic_chat_bubble} from 'react-icons-kit/md/ic_chat_bubble';
 import {ic_sentiment_satisfied} from 'react-icons-kit/md/ic_sentiment_satisfied';
 import shop from './shop.png';
 
-export default class Result extends Component{
+export default class Result2 extends Component{
 
 state={
 imgs:[
-{id:1,title:"food", desc:"Hyderabadi Chicken Biryani", src1:biryani},
-{id:2,title:"food", desc:"Hyderabadi Chicken Biryani", src1:biryani},
-{id:3,title:"food", desc:"Hyderabadi Chicken Biryani", src1:biryani},
-{id:4,title:"food", desc:"Hyderabadi Chicken Biryani", src1:biryani},
-{id:5,title:"food", desc:"Hyderabadi Chicken Biryani", src1:biryani},
-{id:6,title:"food", desc:"Hyderabadi Chicken Biryani", src1:biryani},
-{id:7,title:"food", desc:"Hyderabadi Chicken Biryani", src1:biryani},
-{id:8,title:"food", desc:"Hyderabadi Chicken Biryani", src1:biryani},
-{id:9,title:"food", desc:"Hyderabadi Chicken Biryani", src1:biryani},
+{id:1,title:"food", desc:"Hyderabadi Chicken Biryani", src1:rice},
+{id:2,title:"food", desc:"Hyderabadi Chicken Biryani", src1:rice},
+{id:3,title:"food", desc:"Hyderabadi Chicken Biryani", src1:rice},
+{id:4,title:"food", desc:"Hyderabadi Chicken Biryani", src1:rice},
+{id:5,title:"food", desc:"Hyderabadi Chicken Biryani", src1:rice},
+{id:6,title:"food", desc:"Hyderabadi Chicken Biryani", src1:rice},
+{id:7,title:"food", desc:"Hyderabadi Chicken Biryani", src1:rice},
+{id:8,title:"food", desc:"Hyderabadi Chicken Biryani", src1:rice},
+{id:9,title:"food", desc:"Hyderabadi Chicken Biryani", src1:rice},
 ]};
 
 	render(){
@@ -31,7 +31,7 @@ imgs:[
 					{this.state.imgs.map(imgs=>(
 						<div className="col-md-4" key={imgs.id}>
 							<div className="card p-2 mb-4" style={{width:'280px'}}>
-							<Link to="/RestaurantPage"><img src={imgs.src1} alt={imgs.title} width={150} height={150} className="card-img-top"/></Link>
+							<Link to="/RestaurantPage2"><img src={imgs.src1} alt={imgs.title} width={150} height={150} className="card-img-top"/></Link>
 							<div className="card-body">
 							<p className="clearfix mb-0">
 								<span className="card-title float-left mb-0 pt-2" style={{fontSize:'1.5em'}}>{imgs.desc}</span>

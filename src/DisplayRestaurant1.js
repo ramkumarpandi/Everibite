@@ -8,11 +8,11 @@ import {ic_chat_bubble} from 'react-icons-kit/md/ic_chat_bubble';
 import {iosStopwatch} from 'react-icons-kit/ionicons/iosStopwatch';
 import paradise from './paradise.png';
 import para from './para.png';
-import biryani from './biriyani.png';
+import biryani from './chicken.jpg';
 import discount from './discount.png';
 import { Link } from 'react-router-dom';
 
-export default class DisplayRestaurant extends Component{
+export default class DisplayRestaurant1 extends Component{
 
 render(){
 return(

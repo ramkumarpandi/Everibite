@@ -17,7 +17,7 @@ return(
         <p><a href="#">About us</a></p>
         <p><a href="#">Team</a></p>
         <p><a href="#">Careers</a></p>
-        <p><a href="#">Swiggy Blog</a></p>
+        <p><a href="#">Everibite Blog</a></p>
       </div>
       <div className="col-md-3 footerLink">
         <h5 style={{color:'rgba(255, 255, 255, 0.50)'}}>Contact</h5>

@@ -22,7 +22,7 @@ export default class Card extends Component {
           />
           <div className="card-body">
             <h3 className="card-title">
-              Hyderabadi Chicken Biriyani With Raita
+              Hyderabadi Chicken Biryani With Raita
               <span className="float-right">
                 <Icon icon={outlined} size={21} className="mr-2 float-left" />
                 <span className="p-2 bg-success text-white font-weight-bold float-left rounded mb-2">
@@ -123,7 +123,7 @@ export default class Card extends Component {
     </Media.Body>
   </Media>
   <p className="p-1 mx-4 mb-1">{dateFormat(dateTag,"d mmm yyyy")}</p>
-<p className="border-bottom border-muted mx-4 pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+<p className="border-bottom border-muted mx-4 pb-3">Great food with amazing packing. The Raita was perfect, Biryani was well cooked and good amount of veggies thrown in. </p>
 <Media className="mx-4">
     <Media.Left>
       <img width={40} height={40} src={avatar} alt="thumbnail" />
@@ -136,7 +136,7 @@ export default class Card extends Component {
     </Media.Body>
   </Media>
   <p className="p-1 mx-4 mb-1">{dateFormat(dateTag,"d mmm yyyy")}</p>
-<p className="border-bottom border-muted mx-4 pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+<p className="border-bottom border-muted mx-4 pb-3">Great food with amazing packing. The Raita was perfect, Biryani was well cooked and good amount of veggies thrown in. </p>
 <Media className="mx-4">
     <Media.Left>
       <img width={40} height={40} src={avatar} alt="thumbnail" />
@@ -149,7 +149,7 @@ export default class Card extends Component {
     </Media.Body>
   </Media>
   <p className="p-1 mx-4 mb-1">{dateFormat(dateTag,"d mmm yyyy")}</p>
-<p className="border-bottom border-muted mx-4 pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+<p className="border-bottom border-muted mx-4 pb-3">Great food with amazing packing. The Raita was perfect, Biryani was well cooked and good amount of veggies thrown in. </p>
 <p className="text-center text-success">See All 13 Reviews</p>
         </div>
       </div>

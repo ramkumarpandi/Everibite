@@ -29,7 +29,7 @@ return(
         </form>
 </div>
 <h4><img src={locateme} alt="locateMe"/><a href="#" className="ml-1" style={{color:'#333'}}>Locate Me</a></h4>
-          <p style={{fontFamily:"'Roboto',sans-serif",fontWeight:'400',color:'#666666'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p style={{fontFamily:"'Roboto',sans-serif",fontWeight:'400',color:'#666666',fontSize:'1.3em'}}>Identify your location and help us to provide you the best food options near your location.</p>
       </div>
     </div>
   </div>
@@ -97,7 +97,7 @@ return(
             <Media.Heading>
               <h1>Discover</h1>
             </Media.Heading>
-            <p>
+            <p style={{fontSize:'1.4em'}}>
               We'll help you find hidden modules gems in your neighborhood and taste of you like to bite off.
             </p>
           </Media.Body>
@@ -112,7 +112,7 @@ return(
             <Media.Heading>
               <h1>Better</h1>
             </Media.Heading>
-            <p>
+            <p style={{fontSize:'1.4em'}}>
               The more you use Everibite and review your order better we are at making recommendations just for you.
             </p>
           </Media.Body>
@@ -127,7 +127,7 @@ return(
             <Media.Heading>
               <h1>Offers</h1>
             </Media.Heading>
-            <p>
+            <p style={{fontSize:'1.4em'}}>
               Enjoy each bite and support local business by reviews and feedback and get offers and get coupon codes.
             </p>
           </Media.Body>

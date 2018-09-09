@@ -50,7 +50,7 @@ event.preventDefault();
 render(){
 return(
 
-<div style={{fontFamily:"'Roboto', sans-serif",fontWeight:'700'}}>
+<div style={{fontFamily:"'Roboto', sans-serif",fontWeight:'700'}} className="navPart">
   <div>
     <div className="everibite-bar everibite-white everibite-card" id="myNavbar">
     <Link to="/"><span><img src={logo} className="" alt="logo" /></span></Link>
@@ -69,7 +69,7 @@ return(
 <Link to="/HotelCart" className="everibite-bar-item everibite-button">HotelCart</Link>*/}
 
 
-            <Button className="everibite-bar-item everibite-button "  onClick={this.handleShow} style={{background:'#6cc018',color:'#fff'}}>
+            <Button className="everibite-bar-item everibite-button px-5 py-2 navBtn"  onClick={this.handleShow} style={{background:'#6cc018',color:'#fff'}}>
                   LOGIN
             </Button>
             <div className="everibite-right everibite-hide-small">
@@ -132,7 +132,7 @@ return(
 
 
 
-            <Button className="everibite-bar-item everibite-button" onClick={this.handleShow1} style={{background:'#6cc018',color:'#fff'}}>
+            <Button className="everibite-bar-item everibite-button px-5 py-2 mx-3 navBtn" onClick={this.handleShow1} style={{background:'#6cc018',color:'#fff'}}>
             REGISTER
             </Button>
             <Modal show={this.state.show1} onHide={this.handleClose}>
