@@ -9,7 +9,7 @@ import {twitter, facebook, instagram, pinterest} from 'react-icons-kit/fa/';
 export default class CommonFooter extends Component{
 render(){
 return(
-<div className="container-fluid" style={{fontFamily:"'Roboto',sans-serif",fontWeight:'300'}}>
+<div className="container-fluid everibiteRobotoLight">
   <div className="row">
     <div className="col-md-9">
       <img src={footerLogo} alt="footerlogo"/>

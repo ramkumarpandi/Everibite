@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
 import './NavBar.css';
+import './EveribiteStyle.css';
 import OTP from './OTP';
 import img1 from './confirm.png';
 import img2 from './registration.png';
@@ -17,7 +18,7 @@ render(){
 return(
 <div>
 <NavBar/>
-<div className="container">
+<div className="container Registration">
 	<div className="text-center">
 		<img src={img1} alt="confirmImg"/>
 		<h1>Hi Username, we appreciate your cherishing</h1>

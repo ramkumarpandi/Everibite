@@ -8,7 +8,7 @@ export default class NavBar1 extends Component
 render()
 {
 return(
-<Navbar default collapseOnSelect style={{fontFamily:"'Roboto', sans-serif",fontWeight:'700'}}>
+<Navbar default collapseOnSelect className="everibiteRobotoBold">
   <Navbar.Header>
     <Navbar.Brand>
       <Link to={"/"}>
