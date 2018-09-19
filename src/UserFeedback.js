@@ -6,8 +6,8 @@ import CommonFooter from './CommonFooter';
 import NavBar1 from './NavBar1';
 import './NavBar.css';
 import './Footer.css';
-import biryani from './biriyani.png';
-import warranty from './warranty.png';
+import biryani from './images/biriyani.png';
+import warranty from './images/warranty.png';
 export default class UserFeedback extends Component{
 constructor(props, context) {
 super(props, context);

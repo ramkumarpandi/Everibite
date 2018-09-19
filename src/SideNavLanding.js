@@ -5,6 +5,7 @@ import Result from './Result';
 import Result1 from './Result1';
 import Result2 from './Result2';
 import './sideBar.css';
+import './EveribiteStyle.css';
 
 export default class SideNavLanding extends Component{
 render(){
@@ -12,11 +13,11 @@ return(
 <Tab.Container id="left-tabs-example" defaultActiveKey="topdish" className="sideBar">
   <Row className="clearfix">
     <Col sm={2} className="px-2">
-      <Nav bsStyle="pills" stacked style={{fontSize:'1.6em'}}>
+      <Nav bsStyle="pills" stacked className="sideNavText">
         <NavItem eventKey="topdish">Top Dishes</NavItem>
         <NavItem eventKey="topbf">Top Breakfast
-		<p style={{fontSize:'0.7em'}}>Mostly ordered and healthy breakfast recommended for you !!</p>
-	</NavItem>
+		    <p className="everibiteRobotoRegular font12 mb-0 mt-1">Mostly ordered and healthy breakfast recommended for you !!</p>
+	      </NavItem>
         <NavItem eventKey="recommended">Recommended For You</NavItem>
         <NavItem eventKey="recentorder">Recent Orders</NavItem>
         <NavItem eventKey="gems">Gems in your Locality</NavItem>

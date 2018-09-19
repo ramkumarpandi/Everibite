@@ -5,6 +5,7 @@ import Result from './Result';
 import Result1 from './Result1';
 import Result2 from './Result2';
 import './sideBar.css';
+import './EveribiteStyle.css';
 
 export default class SideNavRest extends Component{
 render(){
@@ -12,7 +13,7 @@ return(
 <Tab.Container id="left-tabs-example" defaultActiveKey="toprated" className="sideBar">
   <Row className="clearfix">
     <Col sm={2} className="px-2">
-      <Nav bsStyle="pills" stacked style={{fontSize:'1.6em',fontFamily:"'Viga',sans-serif"}}>
+      <Nav bsStyle="pills" stacked className="sideNavText">
         <NavItem eventKey="toprated">Top Rated</NavItem>
         <NavItem eventKey="biryani">Biryani</NavItem>
         <NavItem eventKey="desserts">Desserts</NavItem>
