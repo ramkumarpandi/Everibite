@@ -1,6 +1,6 @@
 import React,{ Component } from 'react';
 import {Media,Button} from 'react-bootstrap';
-import Dollar from'./imagel.png';
+import Dollar from'./images/imagel.png';
 import {Link} from 'react-router-dom';
 export default class OrderHeader extends Component
 {

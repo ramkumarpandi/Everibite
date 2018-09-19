@@ -6,10 +6,10 @@ import {ic_grade} from 'react-icons-kit/md/ic_grade';
 import {ic_sentiment_satisfied} from 'react-icons-kit/md/ic_sentiment_satisfied';
 import {ic_chat_bubble} from 'react-icons-kit/md/ic_chat_bubble';
 import {iosStopwatch} from 'react-icons-kit/ionicons/iosStopwatch';
-import paradise from './paradise.png';
-import para from './para.png';
-import biryani from './biriyani.png';
-import discount from './discount.png';
+import paradise from './images/paradise.png';
+import para from './images/para.png';
+import biryani from './images/biriyani.png';
+import discount from './images/discount.png';
 import { Link } from 'react-router-dom';
 
 export default class DisplayRestaurant extends Component{

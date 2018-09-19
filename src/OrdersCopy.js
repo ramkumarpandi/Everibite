@@ -3,9 +3,9 @@ import { Button,Media } from 'react-bootstrap';
 import './OrdersCopy.css';
 import './Footer.css';
 import './NavBar.css';
-import avatar from './avatar.jpeg';
-import avatarMale from './avatar-male.png';
-import location from './location.png';
+import avatar from './images/avatar.jpeg';
+import avatarMale from './images/avatar-male.png';
+import location from './images/location.png';
 import CommonFooter from './CommonFooter';
 import NavBar1 from './NavBar1';
 export default class OrdersCopy extends Component{

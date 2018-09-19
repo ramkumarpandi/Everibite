@@ -1,14 +1,14 @@
 import React,{ Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem, Button, FormGroup, FormControl, Modal } from 'react-bootstrap';
-import logo from './everibiteLogo.png';
+import logo from './images/everibiteLogo.png';
 import './NavBar.css';
 import Icon from 'react-icons-kit';
 import {shoppingBag} from 'react-icons-kit/fa/';
 import './EveribiteStyle.css';
-import fb from './fbIcon.png';
-import google from './googleIcon.png';
-import login from './login.png';
+import fb from './images/fbIcon.png';
+import google from './images/googleIcon.png';
+import login from './images/login.png';
 
 export default class NavNew extends Component
 {

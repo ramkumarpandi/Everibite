@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import pic1 from './findfood.png';
-import pic2 from './diamond.png';
-import pic3 from './better.png';
-import pic4 from './offers.png';
-import carousel7 from './coffee.jpeg';
-import locateme from './locateme.png';
+import pic1 from './images/findfood.png';
+import pic2 from './images/diamond.png';
+import pic3 from './images/better.png';
+import pic4 from './images/offers.png';
+import carousel7 from './images/coffee.jpeg';
+import locateme from './images/locateme.png';
 import './Main.css';
 import './Footer.css';
 import './NavBar.css';

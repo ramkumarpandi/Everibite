@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import logo from './everibiteLogo.png';
+import logo from './images/everibiteLogo.png';
 import { BrowserRouter as Router,Route }from 'react-router-dom';
 import Main from './Main';
 import MyAccount from './MyAccount';
@@ -18,6 +18,9 @@ import RestaurantPage1 from './RestaurantPage1';
 import RestaurantPage2 from './RestaurantPage2';
 import Review from './Review';
 import HotelCart from './HotelCart';
+import ProfileUpdate from './ProfileUpdate';
+import ForgotPassword from './ForgotPassword';
+import NewAddress from './NewAddress';
 
 class App extends Component {
   render() {
@@ -39,6 +42,9 @@ class App extends Component {
 	<Route path="/RestaurantPage2" component={RestaurantPage2}/>
 	<Route path="/Review" component={Review}/>
 	<Route path="/HotelCart" component={HotelCart}/>
+	<Route path="/ProfileUpdate" component={ProfileUpdate}/>
+	<Route path="/ForgotPassword" component={ForgotPassword}/>
+	<Route path="/NewAddress" component={NewAddress}/>
       </div>
 </Router>
     );

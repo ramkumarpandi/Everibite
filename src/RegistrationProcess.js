@@ -3,9 +3,9 @@ import NavBar from './NavBar';
 import './NavBar.css';
 import './EveribiteStyle.css';
 import OTP from './OTP';
-import img1 from './confirm.png';
-import img2 from './registration.png';
-import img3 from './mail.png';
+import img1 from './images/confirm.png';
+import img2 from './images/registration.png';
+import img3 from './images/mail.png';
 
 export default class RegistrationProcess extends Component{
 state={

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import img2 from './registration.png';
+import img2 from './images/registration.png';
 import { Link } from 'react-router-dom';
 
 const OTP = () => (

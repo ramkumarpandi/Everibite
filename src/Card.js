@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import cardImg from "./biriyanilarge.png";
+import cardImg from "./images/biriyanilarge.png";
 import { Button,Media } from "react-bootstrap";
 import Icon from "react-icons-kit";
 import { outlined } from "react-icons-kit/entypo/outlined";
 import { ic_grade } from "react-icons-kit/md/ic_grade";
-import avatar from './avatar-male.png';
+import avatar from './images/avatar-male.png';
 import dateFormat from 'dateformat';
 import { Link } from 'react-router-dom';
 

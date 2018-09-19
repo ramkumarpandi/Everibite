@@ -1,5 +1,5 @@
 import React,{ Component } from 'react';
-import Map from'./map.png';
+import Map from'./images/map.png';
 import {Media} from 'react-bootstrap';
 export default class OrderLoc extends Component
 {

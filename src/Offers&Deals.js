@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import biryani from './biriyani.png';
+import biryani from './images/biriyani.png';
+import './EveribiteStyle.css';
 
 export default class OffersDeals extends Component{
 
@@ -19,7 +20,7 @@ var settings = {
 			<div className="container"> 
 <div className="row">
 	<div className="col-md-1 mt-5">
-	<h2>Offers & Deals</h2>
+	<p className="everibiteViga offers mt-4">Offers & Deals</p>
 	</div>
 <div className="col-md-11">
 	<Slider {...settings} className="mb-3">

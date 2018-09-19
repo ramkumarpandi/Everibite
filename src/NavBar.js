@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import logo from './everibiteLogo.png';
-import fb from './fbIcon.png';
-import google from './googleIcon.png';
-import login from './login.png';
+import logo from './images/everibiteLogo.png';
+import fb from './images/fbIcon.png';
+import google from './images/googleIcon.png';
+import login from './images/login.png';
 import { Button, FormGroup, FormControl, Modal} from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import "./LoginForm.css";
@@ -51,7 +51,7 @@ event.preventDefault();
 render(){
 return(
 
-<div className="navPart everibiteRobotoBold">
+<div className="navPart everibiteRobotoBold watermark">
   <div>
     <div className="everibite-bar everibite-white everibite-card" id="myNavbar">
     <Link to="/"><span><img src={logo} className="" alt="logo" /></span></Link>
@@ -90,7 +90,7 @@ return(
             className="inputPart"/>
             </FormGroup>
             <a href="#" className="float-right mb-4 forgotPass everibiteRobotoRegular" onClick={this.handleShow1}>New User? ClickHere</a>
-            <a href="#" className="float-right mb-4 mr-5 forgotPass everibiteRobotoRegular">Forgot Password ?</a>
+            <Link to="/ForgotPassword" className="float-right mb-4 mr-5 forgotPass everibiteRobotoRegular">Forgot Password ?</Link>
 		
             <Link to="/LandingPage"><Button
             bsSize="large"

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import './MyAccount.css';
 import './Footer.css';
 import './NavBar.css';
-import avatar from './avatar.jpeg';
+import avatar from './images/avatar.jpeg';
 import CommonFooter from './CommonFooter';
 import NavBar1 from './NavBar1';
 import Icon from 'react-icons-kit';
@@ -28,7 +29,7 @@ return(
             <img className="mr-3 rounded-circle accountLogo" src={avatar} alt="Generic placeholder image"/>
             <div className="media-body">
               <h5 className="mt-3" style={{color:'#666'}}>Marry John</h5>
-              <a href="#" style={{color:'#008700',textTransform:'uppercase'}}>Edit Profile</a>
+              <Link to="/ProfileUpdate" style={{color:'#008700',textTransform:'uppercase'}}>Edit Profile</Link>
             </div>
           </div>
           <div>
@@ -52,9 +53,10 @@ return(
             </div>
             ))}
           </div>
-          <Button className="btn btn-success px-4 py-2 mr-3 text-white float-right">
+          <Link to="/NewAddress"><Button className="btn btn-success px-4 py-2 mr-3 text-white float-right">
           Add New
           </Button>
+          </Link>
         </div>
       </div>
     </div>

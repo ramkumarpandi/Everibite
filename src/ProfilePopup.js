@@ -6,12 +6,12 @@ import CommonFooter from './CommonFooter';
 import NavBar1 from './NavBar1';
 import './NavBar.css';
 import './Footer.css';
-import pic2 from './myorder.png';
-import pic5 from './myreview.png';
-import pic3 from './favourite.png';
-import pic4 from './offer.png';
-import pic1 from './myaccount.png';
-import pic6 from './signout.png';
+import pic2 from './images/myorder.png';
+import pic5 from './images/myreview.png';
+import pic3 from './images/favourite.png';
+import pic4 from './images/offer.png';
+import pic1 from './images/myaccount.png';
+import pic6 from './images/signout.png';
 export default class ProfilePopup extends Component{
 constructor(props, context) {
 super(props, context);
