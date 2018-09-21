@@ -20,8 +20,8 @@ return(
   <NavBar/>
 <div>
   <div className="mainBg p-5">
-    <div className="row">
-      <div className="bg-white text-left col-md-7 shadow mb-5 bg-white rounded mt-4 ml-5" style={{padding:'4rem'}}>
+    <div className="row watermark">
+      <div className="bg-white text-left col-md-7 shadow mb-5 bg-white rounded mt-4 ml-5 watermark" style={{padding:'4rem'}}>
         <h1 className="everibiteViga everibiteBetter font32">A Better Way To Get Your Food</h1>
         <h3 className="everibiteRobotoLight everibiteOrder font18">Order Your Favourite Food From Restaurants Near You</h3>
 <div className="formBorder my-2">        
@@ -36,10 +36,10 @@ return(
       </div>
     </div>
   </div>
-  <div className="bg-white">
+  <div className="bg-white watermark">
     <Carousel>
       <Carousel.Item>
-        <div className="bg-white clearfix">
+        <div className="bg-white clearfix watermark">
           <div className="d-inline-block col-md-4 ml-5 item1">
             <h1>How Everibite works for you !!</h1>
             <h1>Ordering your favourite food</h1>
@@ -55,7 +55,7 @@ return(
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="bg-white clearfix">
+        <div className="bg-white clearfix watermark">
           <div className="col-md-5 third-col">                         
           </div>
           <div className="col-md-2 everibiteViga font32 text-center pt-5">
@@ -71,7 +71,7 @@ return(
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="bg-white clearfix">
+        <div className="bg-white clearfix watermark">
           <div className="col-md-9 carouselImg p-0 last-col">
           </div>
           <div className="col-md-3 everibiteViga font32 text-right pt-5" style={{paddingRight:'9rem'}}>
@@ -79,14 +79,14 @@ return(
             <h1>Is The</h1>
             <h1>Ingredient</h1>
             <h1>That</h1>
-            <h1>Binds US</h1>
+            <h1>Binds Us</h1>
             <h1 className="afterFood">TOGETHER</h1>
           </div>        
         </div>
       </Carousel.Item>
     </Carousel>
   </div>
-  <div className="container mt-5">
+  <div className="container mt-5 watermark">
     <h1 className="everibiteViga whyOrder font32">Why Order With Everibite?</h1>
     <div className="row">
       <div className="col-md-4">
@@ -136,7 +136,7 @@ return(
       </div>
     </div>
     <h1 className="text-center mt-5 pt-5 everibiteViga font32">Register Your Restaurant With Us</h1>
-    <h2 className="text-center mt-3 findCust everibiteRobotoLight"><p>The better way to find the customer who loves your food</p><p>and taste to increase regular customers.</p></h2>
+    <h2 className="text-center mt-3 findCust everibiteRobotoLight watermak"><p>The better way to find the customer who loves your food</p><p>and taste to increase regular customers.</p></h2>
 <center><Button className="mb-4 everibiteViga font18 getInTouch btn-lg">Get In Touch With Us Now</Button></center>
   </div>
 </div>

@@ -17,7 +17,7 @@ const ViewOrder = ({match}) =>
 
 					
 					<NavBar1/>
-					<Grid className="mt-5 container mb-5">							
+					<Grid className="mt-5 container mb-5 watermark">							
 					<Col md={9} className="bg-white">
 							<ViewTab/>
 							</Col>

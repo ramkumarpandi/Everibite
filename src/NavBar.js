@@ -59,7 +59,7 @@ return(
             <Button className="navButton everibiteViga"  onClick={this.handleShow}>
                   LOGIN
             </Button>
-            <Modal show={this.state.show} onHide={this.handleClose}>
+            <Modal show={this.state.show} onHide={this.handleClose} className="watermark">
             <Modal.Header closeButton>            
             </Modal.Header>
             <Modal.Body className="p-5">
@@ -120,7 +120,7 @@ return(
             <Button className="navButton everibiteViga mx-3" onClick={this.handleShow1}>
             REGISTER
             </Button>
-            <Modal show={this.state.show1} onHide={this.handleClose}>
+            <Modal show={this.state.show1} onHide={this.handleClose} className="watermark">
             <Modal.Header closeButton>
             <Modal.Title></Modal.Title>
             </Modal.Header>

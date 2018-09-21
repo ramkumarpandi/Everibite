@@ -7,7 +7,7 @@ export default class OrderInfo extends Component
 
 			return(
 
-				<div>
+				<div className="watermark">
 			<h3 className="text-success font-weight-bold">Order Information</h3>
 			<div>
 					

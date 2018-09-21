@@ -45,12 +45,12 @@ export default class Checkout extends Component {
   };
   render() {
     return (
-      <div className="checkout">
+      <div className="checkout watermark">
         <NavBar1 />
         <div className="container">
           <p className="mt-3">Home/Coimbatore/Checkout</p>
           <div className="row mt-5">
-            <div className="col-md-8 shadow p-3 mb-5 bg-white rounded">
+            <div className="col-md-8 shadow p-3 mb-5 bg-white rounded watermark">
               <div className="accountInfo p-4">
                 <Link to="/LandingPage">
                   <Button className="continueOrder px-4 py-3 mr-3 everibiteViga float-right">
@@ -202,7 +202,7 @@ export default class Checkout extends Component {
               </Link>
             </div>
             <div className="col-md-4">
-              <div className="shadow mb-5 bg-white rounded">
+              <div className="shadow mb-5 bg-white rounded watermark">
                 <div className="orderSummaryDiv">
                   <h3 className="everibiteViga ml-2 font18 text-white p-3">
                     Order Summary

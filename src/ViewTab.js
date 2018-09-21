@@ -32,7 +32,7 @@ export default class viewTab extends Component
 
 		
 			return(
-				<div className="Viewtab">
+				<div className="Viewtab watermark">
 					<Tabs defaultActiveKey={1} id="uncontrolled-tab-example"> 
 					<Tab eventKey={1} title="Current Orders">
 					<Current/>

@@ -14,14 +14,14 @@ export default class Card1 extends Component {
 	let dateTag = new Date(); 
     return (
       <div>
-        <div className="card mx-auto mt-5" style={{ width: "600px" }}>
+        <div className="card mx-auto mt-5 watermark" style={{ width: "600px" }}>
           <img
             className="card-img-top"
             src={cardImg}
             alt="Card image"
             style={{ width: "100%" }}
           />
-          <div className="card-body">
+          <div className="card-body watermark">
             <h3 className="card-title">
               Hyderabadi Chicken Biryani With Raita
               <span className="float-right">
@@ -43,7 +43,7 @@ export default class Card1 extends Component {
             </div>
 
 
-<Media className="pt-4">
+<Media className="pt-4 watermark">
     <Media.Left align="middle">
       <img width={150} height={60} src={paradise} alt="thumbnail" />
     </Media.Left>
@@ -62,7 +62,7 @@ export default class Card1 extends Component {
   </Media>
           </div>
 
-	<div className="row">
+	<div className="row watermark">
 		<div className="col-md-8">
     <div className="clearfix">
     <div className="float-left">
@@ -118,7 +118,7 @@ export default class Card1 extends Component {
 	
   </div>
 <h4 className="ml-4">Customer Reviews</h4>
-<Media className="mx-4 mt-2">
+<Media className="mx-4 mt-2 watermark">
     <Media.Left>
       <img width={40} height={40} src={avatar} alt="thumbnail" />
     </Media.Left>
@@ -131,7 +131,7 @@ export default class Card1 extends Component {
   </Media>
   <p className="p-1 mx-4 mb-1">{dateFormat(dateTag,"d mmm yyyy")}</p>
 <p className="border-bottom border-muted mx-4 pb-3">Great food with amazing packing. The Raita was perfect, Biryani was well cooked and good amount of veggies thrown in. </p>
-<Media className="mx-4">
+<Media className="mx-4 watermark">
     <Media.Left>
       <img width={40} height={40} src={avatar} alt="thumbnail" />
     </Media.Left>
@@ -144,7 +144,7 @@ export default class Card1 extends Component {
   </Media>
   <p className="p-1 mx-4 mb-1">{dateFormat(dateTag,"d mmm yyyy")}</p>
 <p className="border-bottom border-muted mx-4 pb-3">Great food with amazing packing. The Raita was perfect, Biryani was well cooked and good amount of veggies thrown in. </p>
-<Media className="mx-4">
+<Media className="mx-4 watermark">
     <Media.Left>
       <img width={40} height={40} src={avatar} alt="thumbnail" />
     </Media.Left>

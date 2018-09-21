@@ -31,12 +31,12 @@ return(
     <Button bsStyle="primary" bsSize="large" onClick={this.handleShow}>
     UserFeedback
     </Button>
-    <Modal show={this.state.show} onHide={this.handleClose}>
+    <Modal show={this.state.show} onHide={this.handleClose} className="watermark">
       <Modal.Header closeButton>
         <Modal.Title></Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <Media>
+        <Media className="watermark">
           <Media.Left>
             <img width={100} height={100} src={biryani} alt="thumbnail" />
           </Media.Left>
@@ -60,14 +60,14 @@ return(
             </Media.Heading>
           </Media.Body>
         </Media>
-        <div className="text-center display-4">
+        <div className="text-center display-4 watermark">
           <span className="glyphicon glyphicon-star-empty mr-3"></span>
           <span className="glyphicon glyphicon-star-empty mr-3"></span>
           <span className="glyphicon glyphicon-star-empty mr-3"></span>
           <span className="glyphicon glyphicon-star-empty mr-3"></span>
           <span className="glyphicon glyphicon-star-empty"></span>
         </div>
-        <div className="text-center mt-5">
+        <div className="text-center mt-5 watermark">
           <Button className="btn-outline-success text-success px-4 mr-3">Taste</Button>
           <Button className="btn-outline-success text-success px-4 mr-3">Quantity</Button>
           <Button className="btn-outline-success text-success px-4 mr-3">Delivery</Button>

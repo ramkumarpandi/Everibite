@@ -10,8 +10,8 @@ import './EveribiteStyle.css';
 export default class SideNavRest extends Component{
 render(){
 return(
-<Tab.Container id="left-tabs-example" defaultActiveKey="toprated" className="sideBar">
-  <Row className="clearfix">
+<Tab.Container id="left-tabs-example" defaultActiveKey="toprated" className="sideBar watermark">
+  <Row className="clearfix watermark">
     <Col sm={2} className="px-2">
       <Nav bsStyle="pills" stacked className="sideNavText">
         <NavItem eventKey="toprated">Top Rated</NavItem>

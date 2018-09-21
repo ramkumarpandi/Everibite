@@ -11,7 +11,7 @@ render(){
 return(
 <div className="footer py-5 px-4">
   <footer className="container-fluid">
-    <div className="row">
+    <div className="row watermark">
       <ul className="col-md-3 footerLink font16 everibiteRobotoMedium">
         <li className="everibiteViga footerHead">Company</li>
         <li>About us</li>
@@ -55,7 +55,7 @@ return(
 </div>
       </div>
     </div>
-    <div className="row">
+    <div className="row watermark">
       <div className="col-md-6">
         <img src={footerLogo} alt="footerlogo"/>
       </div>

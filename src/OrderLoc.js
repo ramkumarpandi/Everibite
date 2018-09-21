@@ -12,7 +12,7 @@ export default class OrderLoc extends Component
 
 			return(
 
-					<div>
+					<div className="watermark">
 
 			
 					<h4 className="text-success font-weight-bold">Delivery Location</h4>

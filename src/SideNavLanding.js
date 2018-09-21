@@ -11,7 +11,7 @@ export default class SideNavLanding extends Component{
 render(){
 return(
 <Tab.Container id="left-tabs-example" defaultActiveKey="topdish" className="sideBar">
-  <Row className="clearfix">
+  <Row className="clearfix watermark">
     <Col sm={2} className="px-2">
       <Nav bsStyle="pills" stacked className="sideNavText">
         <NavItem eventKey="topdish">Top Dishes</NavItem>

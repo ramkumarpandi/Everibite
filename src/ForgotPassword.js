@@ -9,27 +9,23 @@ export default class ForgotPassword extends Component {
     }
   render() {
     return (
-        <div className="static-modal"> 
-        <Modal.Dialog style={{background:'#000'}}> 
+        <div className="static-modal watermark"> 
+        <Modal.Dialog style={{background:'#000'}} className="watermark"> 
             <Modal.Header> 
-                <Modal.Title>Forgot Password</Modal.Title> 
+                <Modal.Title className="loginText">Forgot Password</Modal.Title> 
                 </Modal.Header> 
-                <Modal.Body>
+                <Modal.Body className="wordColor">
                 <Form horizontal>
-                 <FormGroup controlId="formHorizontalEmail">
-                  <Col componentClass={ControlLabel} sm={2}> Email </Col>
-                   <Col sm={10}>
-                    <FormControl type="email" placeholder="Email" /> </Col>
+                 <FormGroup controlId="formHorizontalEmail inputPart mb-0">
+                    <FormControl type="email" placeholder="Email Your MailID" className="form-control-lg w-75 mx-auto"/>
                 </FormGroup> 
-                <FormGroup controlId="formHorizontalEmail">
-                  <Col componentClass={ControlLabel} sm={2}> Mobile </Col>
-                   <Col sm={10}>
-                    <FormControl type="tel" placeholder="Mobile Number" /> </Col>
+                <FormGroup controlId="formHorizontalEmail inputPart mb-0">
+                    <FormControl type="tel" placeholder="Enter Your Registered Mobile Number" className="form-control-lg w-75 mx-auto"/> 
                 </FormGroup>
                         </Form>
                 </Modal.Body> 
                 <Modal.Footer> 
-                    <Button bsStyle="success" onClick={this.saveChanges.bind(this)}>Save Password</Button> 
+                    <Button onClick={this.saveChanges.bind(this)} className="loginBtn">SAVE PASSWORD</Button> 
                 </Modal.Footer> 
                 </Modal.Dialog> 
                 </div>

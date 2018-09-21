@@ -9,45 +9,45 @@ export default class ProfileUpdate extends Component {
     }
   render() {
     return (
-        <div className="static-modal"> 
-        <Modal.Dialog style={{background:'#000'}}> 
+        <div className="static-modal watermark"> 
+        <Modal.Dialog style={{background:'#000'}} className="watermark"> 
             <Modal.Header> 
-                <Modal.Title>ProfileUpdate</Modal.Title> 
+                <Modal.Title className="loginText">ProfileUpdate</Modal.Title> 
                 </Modal.Header> 
-                <Modal.Body>
+                <Modal.Body className="wordColor">
                 <Form horizontal>
                 <FormGroup controlId="formHorizontalEmail">
-                  <Col componentClass={ControlLabel} sm={2} className="pt-0"> Username </Col>
-                   <Col sm={10}><p>Marry John</p></Col>
+                  <Col componentClass={ControlLabel} sm={4} className="pt-0 font14"> Username </Col>
+                   <Col sm={8}><p className="pt-0 mb-0 font14">Marry John</p></Col>
                 </FormGroup> 
                 <FormGroup controlId="formHorizontalEmail">
-                  <Col componentClass={ControlLabel} sm={2}> Profile Picture </Col>
-                   <Col sm={10}>
+                  <Col componentClass={ControlLabel} sm={4} className="pt-0 font14"> Profile Picture </Col>
+                   <Col sm={8}>
                     <FormControl type="file" accept="image/png, image/jpeg"/> </Col>
                 </FormGroup> 
                 <FormGroup controlId="formHorizontalEmail">
-                  <Col componentClass={ControlLabel} sm={2} className="pt-0"> Mobile Number</Col>
-                   <Col sm={10}>  <p>+91 9493959698</p> </Col>
+                  <Col componentClass={ControlLabel} sm={4} className="pt-0" className="pt-0 font14"> Mobile Number</Col>
+                   <Col sm={8}>  <p className="pt-0 mb-0 font14">+91 9493959698</p> </Col>
                 </FormGroup> 
                 <FormGroup controlId="formHorizontalEmail">
-                  <Col componentClass={ControlLabel} sm={2}>Alternate Mobile </Col>
-                   <Col sm={10}>
-                    <FormControl type="tel" placeholder="Alternate Mobile Number" /> </Col>
+                  <Col componentClass={ControlLabel} sm={4} className="pt-0 font14">Alternate Mobile </Col>
+                   <Col sm={7}>
+                    <FormControl type="tel" placeholder="Alternate Mobile Number" className="mb-1"/> </Col>
                 </FormGroup> 
                  <FormGroup controlId="formHorizontalEmail">
-                  <Col componentClass={ControlLabel} sm={2} className="pt-0"> Email </Col>
-                   <Col sm={10}><p>abc@example.com</p></Col>
+                  <Col componentClass={ControlLabel} sm={4} className="pt-0 font14 mb-0"> Email </Col>
+                   <Col sm={8}><p className="font14">abc@example.com</p></Col>
                 </FormGroup>  
                 <FormGroup controlId="formHorizontalEmail">
-                  <Col componentClass={ControlLabel} sm={2}>Landline Number </Col>
-                   <Col sm={10}>
+                  <Col componentClass={ControlLabel} sm={4} className="pt-0 font14">Landline Number </Col>
+                   <Col sm={7}>
                     <FormControl type="tel" placeholder="Landline Number" /> </Col>
                 </FormGroup> 
                         </Form>
 
                 </Modal.Body> 
                 <Modal.Footer> 
-                    <Button bsStyle="success" onClick={this.saveChanges.bind(this)}>Save changes</Button> 
+                    <Button className="loginBtn" onClick={this.saveChanges.bind(this)}>SAVE CHANGES</Button> 
                 </Modal.Footer> 
                 </Modal.Dialog> 
                 </div>

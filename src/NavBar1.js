@@ -8,7 +8,7 @@ export default class NavBar1 extends Component
 render()
 {
 return(
-<Navbar default collapseOnSelect className="everibiteRobotoBold">
+<Navbar default collapseOnSelect className="everibiteRobotoBold watermark">
   <Navbar.Header>
     <Navbar.Brand>
       <Link to={"/"}>

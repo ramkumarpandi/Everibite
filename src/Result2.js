@@ -29,7 +29,7 @@ imgs:[
 			<div> 
 
 					{this.state.imgs.map(imgs=>(
-						<div className="col-md-4" key={imgs.id}>
+						<div className="col-md-4 watermark" key={imgs.id}>
 							<div className="card p-2 mb-4" style={{width:'280px'}}>
 							<Link to="/RestaurantPage2"><img src={imgs.src1} alt={imgs.title} width={150} height={150} className="card-img-top"/></Link>
 							<div className="card-body">

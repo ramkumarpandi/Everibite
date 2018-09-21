@@ -13,11 +13,11 @@ render(){
 return(
 <div>
   <NavBar1/>
-  <div className="container">
+  <div className="container watermark">
     <p className="mt-2">Home/Coimbatore/My Orders/45890124</p>
     <div className="row pb-5 mb-5">
       <div className="col-md-8">
-        <div className="shadow p-3 mb-5 bg-white rounded">
+        <div className="shadow p-3 mb-5 bg-white rounded watermark">
 		<Media>
           <Media.Left>
            <span className="glyphicon glyphicon-chevron-left text-white bg-success p-3 rounded-circle"></span>
@@ -55,7 +55,7 @@ return(
 	</div>
       </div>
       <div className="col-md-4">
-        <div className="shadow mb-5 bg-white rounded">
+        <div className="shadow mb-5 bg-white rounded watermark">
           <div className="bg-success p-2">
             <h3 className="text-white ml-2">Order Information</h3>
           </div>

@@ -9,8 +9,8 @@ import './EveribiteStyle.css';
 const Search = () => 
 (
 
-<div className="searchBox">
-	<section className="container formBorder">
+<div className="searchBox watermark">
+	<section className="container formBorder watermark">
 	<form className="px-5 m-5 row">
 	<div className="form-group-lg col-md-3 mr-5 px-0 selectBox">
       <img src={loc} alt="locIcon" className="pb-2"/>
@@ -30,7 +30,7 @@ const Search = () =>
   </select>
 </div>
 
-        <div className="bg-white rounded col-md-8 landInput">
+        <div className="bg-white rounded col-md-8 landInput watermark">
         <FormGroup controlId="formBasicText" bsSize="large" className="w-75 d-inline-block mb-0 mt-2 pt-1">          
           <FormControl
             type="search"

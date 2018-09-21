@@ -23,11 +23,10 @@ render()
 		let now = new Date();	
 
 	return(
-
-		<div className="Current">
+		<div className="Current watermark">
 			
 			<Grid className="mt-5">
-   <Row className="show-grid border border-success  rounded mb-5">
+   <Row className="show-grid border border-success  rounded mb-5 watermark">
       <Col  md={8}>
       <div className="mt-3">
          <p>Order No #
@@ -41,7 +40,7 @@ render()
             <Icon icon={iosLocationOutline}/>
             12/3 Krishna Enclave,Gopalapuram,#rd Street,
          </p>
-         <div className="progressBarModal">
+         <div className="progressBarModal watermark">
             <div className="progress">
                <div className="progress-bar-success progress-bar-striped active massive-font" role="progressbar" aria-valuenow="10" aria-valuemin="20" aria-valuemax="100" style={{width:'20%'}}>
                </div>
@@ -51,7 +50,7 @@ render()
       </div>
       </Col>
       <Col  md={4} className="p-3" >
-      <div className="float-right text-right p-3">
+      <div className="float-right text-right p-3 watermark">
          <p>{dateFormat(now)}</p>
          <h5 className="text-success font-weight-bold">Price: &#8377;509</h5>
          <h6>Payment Bank Card-Sucessful</h6>
@@ -64,7 +63,7 @@ render()
       </div>
       </Col>
    </Row>
-   <Row className="show-grid border border-success  rounded mb-5">
+   <Row className="show-grid border border-success  rounded mb-5 watermark">
       <Col  md={8}>
       <div className="mt-3">
          <p>Order No #
@@ -78,7 +77,7 @@ render()
             <Icon icon={iosLocationOutline}/>
             12/3 Krishna Enclave,Gopalapuram,#rd Street,
          </p>
-         <div className="progressBarModal">
+         <div className="progressBarModal watermark">
             <div className="progress">
                <div className="progress-bar-success progress-bar-striped active massive-font" role="progressbar" aria-valuenow="10" aria-valuemin="20" aria-valuemax="100" style={{width:'20%'}}>
                </div>
@@ -88,7 +87,7 @@ render()
       </div>
       </Col>
       <Col  md={4} className="p-3" >
-      <div className="float-right text-right p-3">
+      <div className="float-right text-right p-3 watermark">
          <p className="p-3">{dateFormat(now,"fullDate")} |  {dateFormat(now,"shortTime")}</p>
          <h5 className="text-success font-weight-bold">Price: &#8377;509</h5>
          <h6>Payment Bank Card-Sucessful</h6>

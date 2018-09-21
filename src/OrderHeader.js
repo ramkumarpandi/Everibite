@@ -13,7 +13,7 @@ export default class OrderHeader extends Component
 
 			return(
 
-					<div>
+					<div className="watermark">
 					<div className="float-right mt-3">
 						<h5>Your Order number #</h5>
 						<h3>408973455</h3>

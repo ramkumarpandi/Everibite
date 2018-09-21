@@ -18,7 +18,7 @@ var settings = {
     };
 		return(
 			<div className="container"> 
-<div className="row">
+<div className="row watermark">
 	<div className="col-md-1 mt-5">
 	<p className="everibiteViga offers mt-4">Offers & Deals</p>
 	</div>

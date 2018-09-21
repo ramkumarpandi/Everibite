@@ -17,7 +17,7 @@ export default class DisplayRestaurant extends Component{
 render(){
 return(
 <div className="container">
-	<div className="item shadow bg-white p-3 mb-3 rounded">
+	<div className="item shadow bg-white p-3 mb-3 rounded watermark">
 		<Media>
     <Media.Left>
       <img width={250} height={200} src={biryani} alt="thumbnail" />
@@ -42,7 +42,7 @@ return(
     </Media.Body>
   </Media>
 	</div>
-	<div className="hotel shadow bg-white p-3 mb-3 rounded">
+	<div className="hotel shadow bg-white p-3 mb-3 rounded watermark">
   <Grid className="mt-5 container">
 <Row>
 

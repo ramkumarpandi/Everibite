@@ -460,3 +460,38 @@
 .static-modal .modal-content{
     background: var(--mainbg-color);
 }
+.menuName{
+    font-family:'Viga',sans-serif;
+    font-size:16px;
+    letter-spacing: 0;
+    color:var(--words-color);
+    width:209px;
+}
+.menuType{
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    font-size:13px;
+    color:var(--words-color);
+    width:122px;
+}
+.restName{
+    font-family:'Roboto',sans-serif;
+    font-weight:700;
+    font-size:11px;
+    color:var(--words-color);
+}
+.placeStyle{
+    font-size:14px;
+    outline:1px solid #3a8d1e;
+    background:var(--generalWhite-color);
+    border:none;
+    margin:3px 10px 0 2px;
+}
+.placeStyle:hover{
+    background:var(--greenShade2-color);
+    color:var(--generalWhite-color);
+}
+.modal-content{
+    background:url('./images/ITS.png') no-repeat;
+  background-position:center center;
+}

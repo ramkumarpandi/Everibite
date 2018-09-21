@@ -19,14 +19,14 @@ return(
 <div>
 <NavBar/>
 <div className="container Registration">
-	<div className="text-center">
+	<div className="text-center watermark">
 		<img src={img1} alt="confirmImg"/>
 		<h1>Hi Username, we appreciate your cherishing</h1>
 		<h3 className="text-success">You have successfully register with us!</h3>
 		<h4>Verification email has been send your email ID by clicking the link mentioned in the email</h4>
 	</div>
 
-	<div className="text-center">
+	<div className="text-center watermark">
 		<img src={img3} alt="Mail"/>
 		<h2>Hi Username, Your email verificationis successful</h2>
 		<h3>We have sent an OTP to your Mobile number. Please submit the OTP.</h3>
