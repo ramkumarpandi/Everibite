@@ -3,7 +3,6 @@ import {Grid,Row,Col} from 'react-bootstrap';
 import NavBar1 from './NavBar1';
 import OffersDeals from './Offers&Deals';
 import SideNavLanding from './SideNavLanding';
-import Result from './Result';
 import Search from './Search';
 import CommonFooter from './CommonFooter';
 

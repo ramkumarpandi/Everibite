@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import pic1 from './images/findfood.png';
 import pic2 from './images/diamond.png';
 import pic3 from './images/better.png';
 import pic4 from './images/offers.png';
-import carousel7 from './images/coffee.jpeg';
 import locateme from './images/locateme.png';
 import './Main.css';
 import './Footer.css';
 import './NavBar.css';
 import './EveribiteStyle.css';
 import NavBar from './NavBar';
-import NavNew from './NavNew';
 import Footer from './Footer';
 import { Carousel,Media,Button } from 'react-bootstrap';
 export default class Main extends Component{
@@ -31,7 +30,7 @@ return(
 	<button type="submit" className="btn btn-lg ml-3 findBite everibiteViga font18">Find Your Bite</button>	         
         </form>
 </div>
-<h4><img src={locateme} alt="locateMe"/><a href="#" className="ml-1 locateme everibiteRobotoMedium" style={{color:'#333'}}>Locate Me</a></h4>
+<h4><img src={locateme} alt="locateMe"/><Link to="" className="ml-1 locateme everibiteRobotoMedium" style={{color:'#333'}}>Locate Me</Link></h4>
           <p className="locateBelow everibiteRobotoMedium">Identify your location and help us to provide you the best food options near your location.</p>
       </div>
     </div>

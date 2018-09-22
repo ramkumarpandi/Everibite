@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { Button,Media } from 'react-bootstrap';
+import { Media } from 'react-bootstrap';
 import './OrdersCopy.css';
 import './Footer.css';
 import './NavBar.css';
-import avatar from './images/avatar.jpeg';
 import avatarMale from './images/avatar-male.png';
 import location from './images/location.png';
 import CommonFooter from './CommonFooter';
@@ -44,7 +43,7 @@ return(
 <div className="">
 <h3>Delivery Agent</h3>
 <div className="media">
-            <img className="mr-3 rounded-circle accountLogo" src={avatarMale} alt="Generic placeholder image"/>
+            <img className="mr-3 rounded-circle accountLogo" src={avatarMale} alt="avatar"/>
             <div className="media-body">
               <h4 className="mt-3">Ilanchezhiyan</h4>
               <h4>+91-923456780</h4>

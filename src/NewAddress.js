@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {ButtonToolbar,DropdownButton,MenuItem,Modal,Button,Form,FormControl,FormGroup,Col,ControlLabel} from 'react-bootstrap';
+import {Modal,Button,Form,FormControl,FormGroup,Col,ControlLabel} from 'react-bootstrap';
 import './EveribiteStyle.css';
 export default class NewAddress extends Component {
 saveChanges(e) { 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { Media,Button,Modal } from 'react-bootstrap';
+import { Button,Modal } from 'react-bootstrap';
 import './UserFeedback.css';
 import CommonFooter from './CommonFooter';
 import NavBar1 from './NavBar1';

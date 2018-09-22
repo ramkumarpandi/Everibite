@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Media,Button,Grid,Row,Col,Form,FormGroup,FormControl,Checkbox } from 'react-bootstrap';
+import { Media,Button,Grid,Row,Col } from 'react-bootstrap';
 import Icon from 'react-icons-kit';
 import {outlined} from 'react-icons-kit/entypo/outlined';
 import {ic_grade} from 'react-icons-kit/md/ic_grade';
@@ -9,7 +9,6 @@ import {iosStopwatch} from 'react-icons-kit/ionicons/iosStopwatch';
 import paradise from './images/paradise.png';
 import para from './images/para.png';
 import biryani from './images/biriyani.png';
-import discount from './images/discount.png';
 import { Link } from 'react-router-dom';
 
 export default class DisplayRestaurant extends Component{

@@ -2,18 +2,10 @@ import React,{ Component } from 'react';
 import {Grid,Row,Col} from 'react-bootstrap';
 //import './Current.css';
 import Icon from 'react-icons-kit';
-import {longLeft} from 'react-icons-kit/entypo/longLeft';
-import {ic_store} from 'react-icons-kit/md/ic_store';
-import {longArrowRight} from 'react-icons-kit/fa/longArrowRight'
-import {location} from 'react-icons-kit/icomoon/location';
-import {card} from 'react-icons-kit/ionicons/card';
 import {iosArrowThinRight} from 'react-icons-kit/ionicons/iosArrowThinRight';
 import {iosLocationOutline} from 'react-icons-kit/ionicons/iosLocationOutline';
-import {iosStopwatchOutline} from 'react-icons-kit/ionicons/iosStopwatchOutline';
 import {iosHomeOutline} from 'react-icons-kit/ionicons/iosHomeOutline';
-import {iosStopwatch} from 'react-icons-kit/ionicons/iosStopwatch';
 import dateFormat from 'dateformat';
-import {Button} from 'react-bootstrap';
 export default class Past extends Component
 {
 

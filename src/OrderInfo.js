@@ -1,46 +1,68 @@
 import React,{ Component } from 'react';
+import './EveribiteStyle.css';
 export default class OrderInfo extends Component
 {
 	render()
-
 		{
-
 			return(
-
-				<div className="watermark">
-			<h3 className="text-success font-weight-bold">Order Information</h3>
-			<div>
+			<div className="watermark">
+			<h3 className="everibiteViga font18 orderInfo">Order Information</h3>
+			<div className="clearfix">				
+			<div className="float-left">	
+			<p className="menuName mb-1">Hydrebadi Chicken Biryani With Raita</p>
+			<p className="menuType mb-1">South Indian,Biryani</p>
+			<p className="restName mb-1">Biryani Paradise,Wilson Garden</p>			
+			</div>
+			<div className="float-right">
+			<span className="font18 everibiteRobotoMedium priceStyle pb-3">&#8377;200</span>
+                    <div style={{ clear: "both",textAlign:'right' }}>
+                      <div className="d-inline-block" style={{ padding: "2px", border: "1px solid #e57575", borderRadius:'3px'}}>
+                        <div style={{width: "7px",height: "7px",borderRadius: "50%",background:'#e57575'}}/>
+                      </div>
+                    </div>
 					
-			<h4>Hydrebadi Chicken Biryani With Raita <span className="float-right text-success">&#8377;200</span></h4>
-			<h5>South Indian,Biryani<span className="float-right text-danger font-weight-bold">&#8865;</span></h5>
-			<h6>Biryani Paradise,Wilson Garden</h6>
-
+            </div>
+			</div>
 			<hr/>
-			</div>
-
-			<div>
-			<h4>Hydrebadi Chicken Biryani With Raita <span className="float-right text-success">&#8377;200</span></h4>
-			<h5>South Indian,Biryani<span className="float-right text-danger font-weight-bold">&#8865;</span></h5>
-			<h6>Biryani Paradise,Wilson Garden</h6>
-
-			<hr/></div>
-			<div>
-			<h5 className="text-muted">Item Total<span className="text-muted float-right">&#8377;440.00</span></h5>
-			<h5 className="text-muted">Item Total<span className="text-muted float-right">&#8377;7.80</span></h5>
-			<h5 className="text-muted">GST<span className="text-muted float-right">&#8377;20.93</span></h5>
-			<h5 className="text-muted">Delivery Charges<span className="text-muted float-right">&#8377;40.00</span></h5>
-			<hr style={{borderTop:'2px solid green'}}/>
-
-
-			</div>
-			<div>
-			<h5 className="text-success font-weight-bold text-uppercase">Amount Paid<span className="text-success float-right font-weight-bold">&#8377;580.00</span></h5>
-
+			<div className="clearfix">	
 			
+			<div className="float-left">	
+			<p className="menuName mb-1">Hydrebadi Chicken Biryani With Raita</p>
+			<p className="menuType mb-1">South Indian,Biryani</p>
+			<p className="restName mb-1">Biryani Paradise,Wilson Garden</p>			
 			</div>
-										
+			<div className="float-right">
+			<span className="font18 everibiteRobotoMedium priceStyle pb-3">&#8377;200</span>
+                    <div style={{ clear: "both",textAlign:'right' }}>
+                      <div
+                        className="d-inline-block"
+                        style={{ padding: "2px", border: "1px solid #e57575" , borderRadius:'3px'}}
+                      >
+                        <div
+                          style={{
+                            width: "7px",
+                            height: "7px",
+                            borderRadius: "50%",
+                            background:'#e57575'
+                          }}
+                        />
+                      </div>
+                    </div>
 					
-				
+            </div>
+			</div>
+			<hr/>
+		
+			<div className="itemAmt">
+			<p className="mb-0">Item Total<span className="float-right">&#8377;440.00</span></p>
+			<p className="mb-0">Restaurant Packaging Charges<span className="float-right">&#8377;7.80</span></p>
+			<p className="mb-0">GST<span className="float-right">&#8377;20.93</span></p>
+			<p className="mb-0">Delivery Charges<span className="float-right">&#8377;40.00</span></p>
+			<hr style={{borderTop:'2px solid green'}}/>
+			</div>
+			<div>
+			<p className="text-uppercase everibiteRobotoBold font16 toPay">Amount Paid<span className="float-right toPayRate everibiteRobotoBold font16 toPay"><span className="font14 mr-1">&#8377;</span>580.00</span></p>		
+			</div>			
 			</div>
 
 				);

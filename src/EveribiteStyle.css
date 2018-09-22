@@ -493,5 +493,48 @@
 }
 .modal-content{
     background:url('./images/ITS.png') no-repeat;
-  background-position:center center;
+    background-position:center center;
+}
+.hoverShow{
+    display: none;
+    text-transform: uppercase;
+}
+.cards:hover{
+    border:2px solid #6cc018;
+}
+.cards:hover .hoverShow{
+    display:block;
+}
+.itemImg{
+    position: relative;
+}
+.filledHeart{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+.thankyou{
+    line-height:32px;
+    color:var(--greenShade3-color);
+}
+.trackOrder,.trackOrder:hover{
+    font-family:'Viga',sans-serif;
+    font-size:14px !important;
+    color:var(--generalWhite-color);
+    background:var(--greenShade3-color);
+}
+.orderInfo{
+    color:var(--greenShade1-color);
+}
+.deliveryLoc{
+    letter-spacing: 0.1px;
+    color:var(--greenShade1-color);
+}
+.addressText p{
+    margin-bottom:0 !important;
+    line-height:18px;
+}
+.payInfo{
+    letter-spacing: 0.1px;
+    color: var(--greenShade1-color);
 }

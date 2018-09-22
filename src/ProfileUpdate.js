@@ -26,7 +26,7 @@ export default class ProfileUpdate extends Component {
                     <FormControl type="file" accept="image/png, image/jpeg"/> </Col>
                 </FormGroup> 
                 <FormGroup controlId="formHorizontalEmail">
-                  <Col componentClass={ControlLabel} sm={4} className="pt-0" className="pt-0 font14"> Mobile Number</Col>
+                  <Col componentClass={ControlLabel} sm={4} className="pt-0 font14"> Mobile Number</Col>
                    <Col sm={8}>  <p className="pt-0 mb-0 font14">+91 9493959698</p> </Col>
                 </FormGroup> 
                 <FormGroup controlId="formHorizontalEmail">

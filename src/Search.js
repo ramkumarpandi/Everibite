@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
-import {Form, FormGroup,FormControl,Button,ButtonToolbar,DropdownButton,MenuItem} from 'react-bootstrap';
-import Icon from 'react-icons-kit';
-import {iosLocationOutline} from 'react-icons-kit/ionicons/iosLocationOutline';
+import React from 'react';
+import {FormGroup,FormControl,Button} from 'react-bootstrap';
 import loc from './images/loc.png';
 import './Search.css';
 import './EveribiteStyle.css';
@@ -14,18 +12,14 @@ const Search = () =>
 	<form className="px-5 m-5 row">
 	<div className="form-group-lg col-md-3 mr-5 px-0 selectBox">
       <img src={loc} alt="locIcon" className="pb-2"/>
-  <select className="form-control border-0 d-inline-block p-0" id="sel1" style={{width:'225px'}}>
-    <option><span className="capital everibiteRobotoBold">Bengaluru, </span>
-    <span className="state">Karnataka</span>
+  <select className="form-control border-0 d-inline-block p-0 everibiteRobotoBold" id="sel1" style={{width:'225px'}}>
+    <option>Bengaluru, Karnataka
     </option>
-    <option><span className="capital everibiteRobotoBold">Chennai, </span>
-    <span className="state">TamilNadu</span>
+    <option>Chennai,TamilNadu
     </option>
-    <option><span className="capital everibiteRobotoBold">Thiruvanthapuram, </span>
-    <span className="state">Kerala</span>
+    <option>Thiruvanthapuram, Kerala
     </option>
-    <option><span className="capital everibiteRobotoBold">Hyderabad, </span>
-    <span className="state">AndhraPradesh</span>
+    <option>Hyderabad, AndhraPradesh
     </option>
   </select>
 </div>

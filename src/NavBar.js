@@ -89,7 +89,7 @@ return(
             placeholder="Password"
             className="inputPart"/>
             </FormGroup>
-            <a href="#" className="float-right mb-4 forgotPass everibiteRobotoRegular" onClick={this.handleShow1}>New User? ClickHere</a>
+            <Link to="" className="float-right mb-4 forgotPass everibiteRobotoRegular" onClick={this.handleShow1}>New User? ClickHere</Link>
             <Link to="/ForgotPassword" className="float-right mb-4 mr-5 forgotPass everibiteRobotoRegular">Forgot Password ?</Link>
 		
             <Link to="/LandingPage"><Button
@@ -187,7 +187,7 @@ return(
             Register
             </Button></Link>
             </form>
-            <h5 className="text-center mt-3 font13 everibiteRobotoRegular">By Creating an account, I accept the <a href="#" className="everibiteRobotoMedium font13 terms">Terms & Conditions</a></h5>
+            <h5 className="text-center mt-3 font13 everibiteRobotoRegular">By Creating an account, I accept the <Link to="" className="everibiteRobotoMedium font13 terms">Terms & Conditions</Link></h5>
             </div>
             </Modal.Body>
             <Modal.Footer>

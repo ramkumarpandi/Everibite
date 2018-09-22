@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import NavBar from './NavBar';
 import './NavBar.css';
 import './EveribiteStyle.css';
 import OTP from './OTP';
 import img1 from './images/confirm.png';
-import img2 from './images/registration.png';
 import img3 from './images/mail.png';
 
 export default class RegistrationProcess extends Component{
@@ -30,10 +30,10 @@ return(
 		<img src={img3} alt="Mail"/>
 		<h2>Hi Username, Your email verificationis successful</h2>
 		<h3>We have sent an OTP to your Mobile number. Please submit the OTP.</h3>
-		<p><input type="text"/><a href="#" className="text-success">Resend OTP</a></p>
+		<p><input type="text"/><Link to="" className="text-success">Resend OTP</Link></p>
 		<button className="text-white btn btn-success" onClick={this.verify.bind(this)}>VERIFY</button>
 	</div>
-{this.state.showRes == 'false' ? null : <OTP/> }	
+{this.state.showRes === 'false' ? null : <OTP/> }	
 	
 </div>
 </div>

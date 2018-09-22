@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import NavBar1 from "./NavBar1";
-import MyAccount from "./MyAccount";
 import { Button, Tab, Tabs } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./MyAccount.css";
@@ -10,9 +9,7 @@ import "./Checkout.css";
 import avatar from "./images/avatar.jpeg";
 import visa from "./images/visa.png";
 import CommonFooter from "./CommonFooter";
-import cards from "./images/visa.png";
 import secure from "./images/secure.png";
-import ProfileUpdate from './ProfileUpdate';
 
 export default class Checkout extends Component {
   state = {
@@ -57,14 +54,14 @@ export default class Checkout extends Component {
                     Continue Ordering
                   </Button>
                 </Link>
-                <h4 className="everibiteViga fot18 AccInfo">
+                <p className="everibiteViga font18 AccInfo">
                   Account Information
-                </h4>
+                </p>
                 <div className="media">
                   <img
                     className="mr-3 rounded-circle accountLogo"
                     src={avatar}
-                    alt="Generic placeholder image"
+                    alt="avatar"
                   />
                   <div className="media-body">
                     <p className="mt-1 mb-0 everibiteRobotoRegular font16 custName">
@@ -91,9 +88,9 @@ export default class Checkout extends Component {
                 </p>
                 <div className="row">
                   {this.state.address.map(addLoc => (
-                    <div className="col-md-4 m-3  py-3 addr" key={addLoc.id}>
+                    <div className="col-md-4 m-3 py-3 addr" key={addLoc.id}>
                       <p className="float-right">{addLoc.logo}</p>
-                      <p className="font-weight-bold everibiteRobotoMedium font14">
+                      <p className="everibiteRobotoMedium font14">
                         {addLoc.place}
                       </p>
                       <p className="ml-3 mb-1 everibiteRobotoRegular font14">
@@ -230,11 +227,11 @@ export default class Checkout extends Component {
                         style={{ padding: "2px", border: "1px solid #e57575" }}
                       >
                         <div
-                          className="bg-danger"
                           style={{
                             width: "7px",
                             height: "7px",
-                            borderRadius: "50%"
+                            borderRadius: "50%",
+                            background:'#e57575'
                           }}
                         />
                       </div>
@@ -271,11 +268,11 @@ export default class Checkout extends Component {
                         style={{ padding: "2px", border: "1px solid #e57575" }}
                       >
                         <div
-                          className="bg-danger"
                           style={{
                             width: "7px",
                             height: "7px",
-                            borderRadius: "50%"
+                            borderRadius: "50%",
+                            background:'#e57575'
                           }}
                         />
                       </div>
@@ -294,19 +291,19 @@ export default class Checkout extends Component {
                 </div>
                 <hr className="shadow bg-white mx-3" />
                 <div className="itemAmt">
-                <p className="ml-3 text-muted mb-0">
+                <p className="ml-3 mb-0">
                   <span>Item Total</span>
                   <span className="float-right mr-3">&#x20B9; 440.00</span>
                 </p>
-                <p className="ml-3 text-muted mb-0">
+                <p className="ml-3 mb-0">
                   <span>Restaurant Packing Charges</span>
                   <span className="float-right mr-3">&#x20B9; 7.50</span>
                 </p>
-                <p className="ml-3 text-muted mb-0">
+                <p className="ml-3 mb-0">
                   <span>GST</span>
                   <span className="float-right mr-3">&#x20B9; 20.93</span>
                 </p>
-                <p className="ml-3 text-muted mb-0">
+                <p className="ml-3 mb-0">
                   <span>Delivery Charges</span>
                   <span className="float-right mr-3">&#x20B9; 40.00</span>
                 </p>

@@ -18,7 +18,7 @@ export default class Card1 extends Component {
           <img
             className="card-img-top"
             src={cardImg}
-            alt="Card image"
+            alt="Cardicon"
             style={{ width: "100%" }}
           />
           <div className="card-body watermark">

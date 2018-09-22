@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Modal,Button,Form,FormControl,FormGroup,Col,ControlLabel} from 'react-bootstrap';
+import {Modal,Button,Form,FormControl,FormGroup} from 'react-bootstrap';
 import './EveribiteStyle.css';
 
 

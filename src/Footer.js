@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.css';
-import { SocialIcon } from 'react-social-icons';
-import { Button, FormGroup, FormControl } from "react-bootstrap";
+import { Button, FormControl } from "react-bootstrap";
 import footerLogo from './images/footerLogo.png';
 import Icon from 'react-icons-kit';
 import {twitter, facebook, instagram, pinterest} from 'react-icons-kit/fa/';

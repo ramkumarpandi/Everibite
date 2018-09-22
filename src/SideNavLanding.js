@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 import {Tab,Row,Col,Nav,NavItem} from 'react-bootstrap';
 import Result from './Result';
 import Result1 from './Result1';

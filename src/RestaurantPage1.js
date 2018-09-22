@@ -4,7 +4,6 @@ import NavBar1 from './NavBar1';
 import Search from './Search';
 import CommonFooter from './CommonFooter';
 import DisplayRestaurant1 from './DisplayRestaurant1';
-import Result from './Result';
 import SideNavRest from './SideNavRest';
 
 export default class RestaurantPage1 extends Component{

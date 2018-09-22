@@ -1,6 +1,6 @@
 import React,{ Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 import logo from './images/everibiteLogo.png';
 import './NavBar.css';
 export default class NavBar1 extends Component
